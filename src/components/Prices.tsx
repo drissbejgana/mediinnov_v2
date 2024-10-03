@@ -17,10 +17,10 @@ export default function Prices() {
     return (
      <div className="max-w-screen-xl relative bg-white border  rounded-md shadow-lg px-5 pt-14  mx-auto md:mt-[-60px] z-10" >
          <div className="flex flex-wrap">
-                   <button className="text-white text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-l-lg  px-8 py-3 text-center dark:bg-red-600 ">
+                   <button className="text-white text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-l-lg  px-8 py-3 text-center  ">
                           One Time Funding
                    </button>
-                   <button  className="text-gray-800 text-[17px] bg-[#F0F4F3] hover:text-white hover:bg-red-800  font-medium rounded-r-lg  px-8 py-3 text-center dark:bg-red-600 ">
+                   <button  className="text-gray-800 text-[17px] bg-[#F0F4F3] hover:text-white hover:bg-red-800  font-medium rounded-r-lg  px-8 py-3 text-center  ">
                           Monthly Funding
                    </button>
          </div>
@@ -77,7 +77,7 @@ export default function Prices() {
           </div>
         </div>
 
-        <button type="submit" className="focus:outline-none text-[17px] text-[#bb1f22] hover:text-white bg-[#EEDF7A]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 shadow-lg hover:!bg-gray-800">
+        <button type="submit" className="focus:outline-none text-[17px] text-[#bb1f22] hover:text-white bg-[#EEDF7A]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-gray-800">
           Share Some Love !!
         </button>
       </form>

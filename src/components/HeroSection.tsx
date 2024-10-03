@@ -29,7 +29,7 @@ const HeroSection = () => {
           <p className="text-white font-light  2xl:text-xl lg:text-lg text-md lg:mb-8 mb-4">
             Lorem donec massa sapien faucibus et. Eget est lorem ipsum dolor sit. Sed cras ornare arcu dui vivamus arcu. Pretium lectus quam id leo in vitae turpis mass.
           </p>
-          <Link className="focus:outline-none  text-[17px] text-[#bb1f22] hover:text-white bg-[#D2EDF6]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 shadow-lg hover:!bg-gray-800" href="/">
+          <Link className="focus:outline-none  text-[17px] text-[#bb1f22] bg-[#D2EDF6]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/">
             Start A Free Fundraiser
           </Link>
           <div className="lg:mt-12 mt-8"></div>
