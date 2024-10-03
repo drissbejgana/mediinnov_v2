@@ -1,8 +1,5 @@
 'use client'
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 
 export default function Prices() {
 
@@ -18,7 +15,7 @@ export default function Prices() {
 
 
     return (
-     <div className="max-w-screen-xl relative bg-white border  rounded-md shadow-lg px-5 pt-14  mx-auto mt-[-60px] z-10" >
+     <div className="max-w-screen-xl relative bg-white border  rounded-md shadow-lg px-5 pt-14  mx-auto md:mt-[-60px] z-10" >
          <div className="flex flex-wrap">
                    <button className="text-white text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-l-lg  px-8 py-3 text-center dark:bg-red-600 ">
                           One Time Funding
