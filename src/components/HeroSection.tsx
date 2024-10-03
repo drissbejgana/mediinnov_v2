@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section>
       <div className="flex items-stretch lg:flex-nowrap flex-wrap bg-[#bb1f22]">
-        {/* Image Section */}
-        <div className="lg:w-2/5 w-full bg-white">
+
+        <div className="lg:w-2/5  w-full bg-white">
           <Image
             alt="marcom-1-5T-MRI"
             title="marcom-1-5T-MRI"
@@ -20,7 +20,7 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Text Section */}
+       
         <div className="lg:w-3/5 w-full 2xl:p-20  lg:p-14 sm:p-8 px-6 py-8 self-center max-w-[850px]">
           <h1 className="text-white font-semibold text-xl md:text-2xl lg:text-5xl lg:mb-6 mb-4">
             <span className="block text-[#D2EDF6] py-3">Hope in Health:</span>

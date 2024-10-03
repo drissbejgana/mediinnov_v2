@@ -26,3 +26,57 @@ menu, ol, ul {
 input[type="radio"]{
   visibility:hidden;
 }
+
+
+
+@media (min-width: 992px) {
+  .fundraiser-item a.title {
+      font-size: 18px;
+  }
+}
+.fundraiser-item a.title {
+  margin-bottom: 1rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  --tw-text-opacity: 1;
+  text-decoration: underline;
+}
+
+
+.left-line{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #303030;
+  display: inline-block;
+}
+
+.left-line::before {
+content: "";
+width: 35px;
+height: 2px;
+background-color: #303030;
+display: inline-block;
+margin-right: 10px;
+}
+
+.right-line{
+text-transform: uppercase;
+font-weight: 700;
+color: #303030;
+display: inline-block;
+
+}
+
+.right-line::after {
+content: "";
+width: 35px;
+height: 2px;
+background-color: #303030;
+display: inline-block;
+margin-left: 10px;
+}
