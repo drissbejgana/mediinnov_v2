@@ -1,0 +1,182 @@
+[
+    {       "id":1,    
+            "author":"Admin",
+            "date":"February 20, 2023",
+            "comments":"No comments",
+            "title":"Marcom 0.35T MRI scanner",
+            "text":"Marcom 0.35T permanent magnet MRI scanner Marcom 0.35T MRI scanner Marcom 0.35T is an open 0.35T permanent magnet MRI scanner which supplies fast imaging and high-quality images and provides rich preset scan protocols as well as advanced applications. Features Eddy zero technology The shimming algorithm technology (ensures field strength with high uniformity and stability), ensure […]",
+            "link":"/medical-imaging/mri"
+    },
+    {   
+        "id":2,    
+        "author":"Admin",
+        "date":"February 12, 2023",
+        "comments":"No comments",
+        "title":"Medical Imaging Systems",
+        "text":"OUR PRODUCTS Medical Imaging Systems We’ll ensure you always get the best solutions:CONTACT US Marcom 0.35T permanement magnet MRI READ MORE Marcom 0.5T permanement magnet MRI READ MORE Marcom 1.5T superconductive MRI scanner READ MORE Cytom 16 multi-slice ultra-fast CT scanner READ MORE Xenox RF1000 fluoroscopy system READ MORE Xenox M70 mobile x-ray system READ […]",
+        "link":"/medical-imaging"
+},
+{
+        "id":3,    
+        "author":"Admin",
+        "date":"February 20, 2023",
+        "comments":"No comments",
+        "title":"Ventilator",
+        "text":"OUR PRODUCTS Ventilator The SternMed ventilator is used in a patient’s respiratory insufficiency. For ventilation therapy, either time, pressure or volume control can be selected. The proportional valve control technology ensures the corresponding tidal volumes. We’ll ensure you always get the best solutions:CONTACT US Vento 62 ventilator READ MORE",
+        "link":"/patient-care/ventilator"
+},
+{
+    "id":4,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Medical Pump",
+    "text":"OUR PRODUCTS Ventilator The SternMed ventilator is used in a patient’s respiratory insufficiency. For ventilation therapy, either time, pressure or volume control can be selected. The proportional valve control technology ensures the corresponding tidal volumes. We’ll ensure you always get the best solutions:CONTACT US Vento 62 ventilator READ MORE",
+    "link":"/patient-care/medical-pump"
+},
+{
+    "id":5,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Patient Monitor",
+    "text":"OUR PRODUCTS Patient Monitor SternMed patient monitors reliably determine multiple physiological parameters such as ECG, RESP, Temperature, SpO2 and NIBP. All data can be transmitted to a central monitoring station. Network solutions with HL7 protocol are also supported. We’ll ensure you always get the best solutions:CONTACT US Macs 10 multi parameter patient monitor READ MORE […]",
+    "link":"/patient-care/patient-monitor"
+},
+{
+    "id":6,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"ESU",
+    "text":"OUR PRODUCTS ESU The versatile electrosurgery devices from SternMed are argon assisted. The automatic adjustment of the cutting and coagulation performance are the further highlights. We’ll ensure you always get the best solutions:CONTACT US Ecut 400S electrosurgical unit READ MORE Ecut 400S Plus electrosurgical unit READ MORE",
+    "link":"/or-solutions/esu"
+},
+{
+    "id":7,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Anesthesia Unit",
+    "text":"OUR PRODUCTS Anesthesia Unit The anaesthesia device mixes medical gases with inhalational anaesthetic (e.g. isoflurane, sevoflurane or desflurane). The SternMed system offers different ventilation modes for adults, children and infants. We’ll ensure you always get the best solutions:CONTACT US Avacs 50 anesthesia unit READ MORE",
+    "link":"/or-solutions/anesthesia-unit"
+},
+{
+    "id":8,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Surgical Table",
+    "text":"OUR PRODUCTS Surgical Table OR – SternMed tables are available in 5 models up to maximum patient weight capacity of 300 kg. The patient’s comfort is also ensured by highly stable hydraulic systems. The surgical requirements meet the operating tables with their flexibility in positioning and simple handling We’ll ensure you always get the best […]",
+    "link":"/or-solutions/surgical-table"
+},
+{
+    "id":9,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Surgical Light",
+    "text":"OUR PRODUCTS Surgical Light MEDI’INNOV products in operation room category including Anesthesia Machine, OR Surgery Table and Surgical Light are designed to support healthcare facilities to provide safe and cost-effective health care to their patients. We’ll ensure you always get the best solutions:CONTACT US Lumax 25 surgical LED light READ MORE Lumax 3 & 5 […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":10,    
+    "author":"Admin", 
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Ultrasound",
+    "text":"OUR PRODUCTS Ultrasound Ultrasound, also known as sonography, is used in diagnostics and live control for difficult procedures. offers a variety of ultrasound heads (transducers) for various investigations. For example, abdominal sonography, echocardiography and mammosonography. We’ll ensure you always get the best solutions:CONTACT US Sonos 10 diagnostic ultrasound system READ MORE Sonos 12 diagnostic ultrasound […]",
+    "link":"/medical-imaging/ultrasound"
+},
+{
+    "id":11,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Mobile C-arm",
+    "text":"OUR PRODUCTS Mobile C-arm A mobile C-arm enables the radiological examination of the patient without relocating. The SternMed image amplifier provides reliable images during surgery of the hand and limbs or spine. It is also widely used in angiographic studies and interventions. We’ll ensure you always get the best solutions:CONTACT US Xenox C100 mobile c-arm […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":12,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Mammography",
+    "text":"OUR PRODUCTS Mammography In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":13,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Radiography",
+    "text":"OUR PRODUCTS Radiography In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":14,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Fluoroscopy",
+    "text":"OUR PRODUCTS Fluoroscopy Fluoroscopy is used, among other things, to represent the dynamic processes in the human body, such as the swallowing process. SternMed’s fast serial exposure (S.F.D) enables function control of catheters and ports. By means of contrast agents, the gas- trointestinal tract can be made more visible. We’ll ensure you always get the […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":15,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"CT",
+    "text":"OUR PRODUCTS CT Computed tomography (CT) is an X-ray examination that can be used to create layered images of the human body. The Cytom 16 from SternMed GmbH can dissolve a consid- erable minimum layer thickness of 0.625 mm. The fields of application in medicine are very diverse. They range from ECG synchronized images of […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":16,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Patient Care",
+    "text":"OUR PRODUCTS Patient Care MEDI’INNOV propose various patient care devices such as Patient Monitor, Infusion Pump , Syringe Pump and Medical Ventilator to enable healthcare professionals to save their patient’s life and monitor the patient vital status. We’ll ensure you always get the best solutions:CONTACT US Macs 10 multi parameter patient monitor READ MORE Macs […] READ MORE",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":17,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"OR Solutions",
+    "text":"OUR PRODUCTS OR Solutions MEDI’INNOV products in operation room category including Anesthesia Machine, OR Surgery Table and Surgical Light are designed to support healthcare facilities to provide safe and cost-effective health care to their patients. We’ll ensure you always get the best solutions:CONTACT US Lumax 25 surgical LED light READ MORE Lumax 3 & 5 […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":18,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"MRI",
+    "text":"OUR PRODUCTS MRI Magnetic Resonance Imaging (MRI) is an imaging technique based on the magnetic alignment of hydrogen atoms. Water-containing tissue thus allows a very detailed rep- resentation of filigree structures. In the human body, these are, for example, internal organs, articular cartilage, spinal – cord or brain. We’ll ensure you always get the best […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":19,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Medical Imaging",
+    "text":"OUR PRODUCTS Medical Imaging Systems MEDI’INNOV sells medical imaging devices including Magnetic Resonance Imaging (MRI), Computed Tomography ( CT scan) and other X-ray devices along with Ultrasound system, these devices deliver hardware & software solutions which are customized for global medical imaging requirements. We’ll ensure you always get the best solutions:CONTACT US Marcom 0.35T permanement […]",
+    "link":"/or-solutions/surgical-light"
+},
+{
+    "id":20,    
+    "author":"Admin",
+    "date":"February 20, 2023",
+    "comments":"No comments",
+    "title":"Privacy Policy",
+    "text":"Who we are Suggested text: Our website address is: https://mediinnov.ma. Comments Suggested text: When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection. An anonymized string created from your email address (also called a […]",
+    "link":"/or-solutions/surgical-light"
+}
+
+]
