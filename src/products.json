@@ -1,0 +1,396 @@
+[
+ {
+            "id":1,
+            "name":"Medical Imaging",
+            "prodcuts":[
+                {
+                  "title": "Marcom 0.35T",
+                  "description": "permanement magnet MRI",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/mri_marcom-0.35T.webp",
+                  "link": "/service-details/",
+                  "category":"mri"
+                },
+                {
+                  "title": "Marcom 0.5T",
+                  "description": "permanement magnet MRI",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/mri-marcom-0.5T.webp",
+                  "link": "/service-details/",
+                   "category":"mri"
+
+                },
+                {
+                  "title": "Marcom 1.5T",
+                  "description": "superconductive MRI scanner",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/MRI-marcom-1-5T.webp",
+                  "link": "/service-details/",
+                  "category":"mri"
+
+                },
+                {
+                  "title": "Cytom 16",
+                  "description": "multi-slice ultra-fast CT scanner",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/CT_Cytom_16-scaled.webp",
+                  "link": "/service-details/",
+                  "category":"ct"
+                },
+                {
+                  "title": "Xenox RF1000",
+                  "description": "fluoroscopy system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/FLUOROSCOPY-RF1000.webp",
+                  "link": "/service-details/",
+                  "category":"fluoroscopy"
+                },
+                {
+                  "title": "Xenox M70",
+                  "description": "mobile x-ray system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-M70.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Xenox M80",
+                  "description": "mobile x-ray system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-xenox-M80.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Xenox M90",
+                  "description": "mobile x-ray system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-M90.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Xenox RAD 400",
+                  "description": "radiography system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-RAD-400.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Xenox DR500",
+                  "description": "digital radiography system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-DR-500.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Xenox M100 Plus",
+                  "description": "motor-driven mobile DR x-ray system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/radiography-xenox-m100-plus.webp",
+                  "link": "/service-details/",
+                  "category":"radiography"
+                },
+                {
+                  "title": "Sonos 10",
+                  "description": "diagnostic ultrasound system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Ultrasound-sonos-10.webp",
+                  "link": "/service-details/",
+                  "category":"ultrasound"
+                },
+                {
+                  "title": "Sonos 12",
+                  "description": "diagnostic ultrasound system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Ultrasound-sonos-12.webp",
+                  "link": "/service-details/",
+                  "category":"ultrasound"
+                },
+
+                {
+                  "title": "Xenox C100",
+                  "description": "mobile c-arm",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_C-arm-Xenox-C100-1.webp",
+                  "link": "/service-details/",
+                  "category":"mobile-c-arm"
+                },
+                {
+                  "title": "Xenox C200",
+                  "description": "mobile c-arm",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_C-arm-xenox-c200.webp",
+                  "link": "/service-details/",
+                  "category":"mobile-c-arm"
+                },
+                {
+                  "title": "Xenox C400",
+                  "description": "mobile c-arm",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_Carm-Xonox-C400.webp",
+                  "link": "/service-details/",
+                  "category":"mobile-c-arm"
+                },
+                {
+                  "title": "Xenox S100",
+                  "description": "mammography system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mammo-Xenox-S100.webp",
+                  "link": "/service-details/",
+                  "category":"mammography"
+                },
+                {
+                  "title": "Xenox S200",
+                  "description": "full-field digital mammography system",
+                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mammo-Xenox-S200T.webp",
+                  "link": "/service-details/",
+                  "category":"mammography"
+                }
+              ],
+            "categories":[
+                {  
+                  "id":"mri",
+                  "name":"Mri",
+                  "image":"/images/products/MRI-marcom-1-5T.webp",
+                  "count":3,
+                  "description":"Magnetic Resonance Imaging (MRI) is an imaging technique based on the magnetic alignment of hydrogen atoms. Water-containing tissue thus allows a very detailed rep- resentation of filigree structures. In the human body, these are, for example, internal organs, articular cartilage, spinal – cord or brain."
+                },
+               {
+                  "id":"ct",
+                  "name":"CT",
+                  "count":1,
+                  "image":"/images/products/CT_Cytom_16-scaled.webp",
+                  "description":"Computed tomography (CT) is an X-ray examination that can be used to create layered images of the human body. The Cytom 16 from SternMed GmbH can dissolve a consid- erable minimum layer thickness of 0.625 mm. The fields of application in medicine are very diverse. They range from ECG synchronized images of the heart, to the emergency examination of the most seriously injured, to bone density measurement by the pivoting gantry."
+                },
+                {
+                  "id":"fluoroscopy",
+                  "name":"Fluoroscopy",
+                  "count":1,
+                  "image":"/images/products/FLUOROSCOPY-RF1000.webp",
+                  "description":"Fluoroscopy is used, among other things, to represent the dynamic processes in the human body, such as the swallowing process. SternMed’s fast serial exposure (S.F.D) enables function control of catheters and ports. By means of contrast agents, the gas- trointestinal tract can be made more visible."
+                },
+                {
+                  "id":"radiography",
+                  "name":"Radiography",
+                  "count":6,
+
+                   "image":"/images/products/Radiography-Xenox-RAD-400.webp",
+                  "description":"In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved detective-quantum- efficiency)."
+                },
+               {
+                  "id":"ultrasound",
+                  "name":"Ultrasound",
+                  "count":2,
+
+                   "image":"/images/products/Ultrasound-sonos-12.webp",
+                  "description":"Ultrasound, also known as sonography, is used in diagnostics and live control for difficult procedures. offers a variety of ultrasound heads (transducers) for various investigations. For example, abdominal sonography, echocardiography and mammosonography."
+                },
+               {
+                  "id":"mobile-c-arm",
+                  "name":"Mobile C-arm",
+                  "count":3,
+                  "image":"/images/products/Mobile_Carm-Xonox-C400.webp",
+                  "description":"A mobile C-arm enables the radiological examination of the patient without relocating. The SternMed image amplifier provides reliable images during surgery of the hand and limbs or spine. It is also widely used in angiographic studies and interventions."
+                },
+                {
+                  "id":"mammography",
+                  "name":"Mammography",
+                  "count":2,
+
+                   "image":"/images/products/Mammo-Xenox-S200T.webp",
+                  "description":"In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved detective-quantum-efficiency)."
+                }
+
+              ]
+
+         }
+,
+{
+    "id":2,
+    "name":"OR Solutions",
+    "prodcuts":[
+      {
+          "title": "Lumax 25",
+          "description": "surgical LED light",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Lumax-25.png",
+          "link": "/service-details/",
+          "category":"surgical-light"
+      },
+      {
+          "title": "Lumax 3 & 5",
+          "description": "Surgical LED light",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Lumax-3-5.webp",
+          "link": "/service-details/",
+          "category":"surgical-light"
+
+      },
+      {
+          "title": "Onex 101",
+          "description": "manual surgery table",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/onex-101.webp",
+          "link": "/service-details/",
+          "category":"surgical-table"
+
+      },
+      {
+          "title": "Onex 102",
+          "description": "electro-hydraulic surgery table",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/onex-102.webp",
+          "link": "/service-details/",
+          "category":"surgical-table"
+      },
+      {
+          "title": "Onex 201",
+          "description": "manual surgery table",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-201.webp",
+          "link": "/service-details/",
+          "category":"surgical-table"
+      },
+      {
+          "title": "Onex 202",
+          "description": "electro-hydraulic surgery table",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-202.webp",
+          "link": "/service-details/",
+          "category":"surgical-table"
+      },
+      {
+          "title": "Onex 203",
+          "description": "electro-hydraulic surgery table",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-203.webp",
+          "link": "/service-details/",
+          "category":"surgical-table"
+      },
+      {
+          "title": "Avacs 50",
+          "description": "anesthesia unit",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/avacs-50.webp",
+          "link": "/service-details/",
+          "category":"anesthesia-unit"
+      },
+      {
+          "title": "Ecut 400S",
+          "description": "electrosurgical unit",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ECUT-400s.webp",
+          "link": "/service-details/",
+          "category":"esu"
+      },
+      {
+          "title": "Ecut 400S Plus",
+          "description": "electrosurgical unit",
+          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ecut-400S-Plus.webp",
+          "link": "/service-details/",
+          "category":"esu"
+      }
+    ],
+    "categories":[
+          {
+            "id":"surgical-light",
+            "name":"Surgical Light",
+            "image":"/images/products/Lumax-25.png",
+            "count":2,
+            "description":"MEDI'INNOV products in operation room category including Anesthesia Machine, OR Surgery Table and Surgical Light are designed to support healthcare facilities to provide safe and cost-effective health care to their patients."
+          },
+          {
+            "id":"surgical-table",
+            "name":"Surgical Table",
+            "image":"/images/products/operationstisch-onex-101-left-4.webp",
+            "count":5,
+            "description":"OR – SternMed tables are available in 5 models up to maximum patient weight capacity of 300 kg. The patient’s comfort is also ensured by highly stable hydraulic systems. The surgical requirements meet the operating tables with their flexibility in positioning and simple handling"
+          },
+          {
+            "id":"anesthesia-unit",
+            "name":"Anesthesia Unit",
+            "image":"/images/products/anaesthesiegeraet-avacs-50-left2.webp",
+            "count":1,
+            "description":"The anaesthesia device mixes medical gases with inhalational anaesthetic (e.g. isoflurane, sevoflurane or desflurane). The SternMed system offers different ventilation modes for adults, children and infants."
+          },
+          {
+            "id":"esu",
+            "name":"ESU",
+            "image":"/images/products/ECUT-400s.webp",
+            "count":2,
+            "description":"The versatile electrosurgery devices from SternMed are argon assisted. The automatic adjustment of the cutting and coagulation performance are the further highlights."
+          }
+
+    ]
+    
+  
+      
+ }
+,
+{
+  "id":3,
+  "name":"Patient Care",
+  "prodcuts":[
+    {
+        "title": "Macs 10",
+        "description": "multi parameter patient monitor",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-10.webp",
+        "link": "/service-details/",
+        "category":"patient-monitor"
+        
+    },
+    {
+        "title": "Macs 20",
+        "description": "multi parameter patient monitor",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-20.webp",
+        "link": "/service-details/",
+        "category":"patient-monitor"
+    },
+    {
+        "title": "Macs 30",
+        "description": "multi parameter patient monitor",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-30.webp",
+        "link": "/service-details/",
+        "category":"patient-monitor"
+    },
+    {
+        "title": "Macs 50",
+        "description": "modular patient monitor",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs50.webp",
+        "link": "/service-details/",
+        "category":"patient-monitor"
+    },
+    {
+        "title": "PC-Macs Series",
+        "description": "central monitoring - Macs series",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/pc-macs-serie.webp",
+        "link": "/service-details/",
+        "category":"patient-monitor"
+    },
+    {
+        "title": "IPN 56",
+        "description": "infusion pump",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ipn-56.webp",
+        "link": "/service-details/",
+        "category":"medical-pump"
+    },
+    {
+        "title": "SPN 58",
+        "description": "syringe pump",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/spn-58.webp",
+        "link": "/service-details/",
+        "category":"medical-pump"
+    },
+    {
+        "title": "Vento 62",
+        "description": "ventilator",
+        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/vento-62.webp",
+        "link": "/service-details/",
+        "category":"ventilator"
+    }
+  ],
+  "categories":[
+    {
+      "id":"patient-monitor",
+      "name":"Patient Monitor",
+      "image":"/images/products/patientenmonitor-marcs-10-left-3.webp",
+      "count":4,
+      "description":"SternMed patient monitors reliably determine multiple physiological parameters such as ECG, RESP, Temperature, SpO2 and NIBP. All data can be transmitted to a central monitoring station. Network solutions with HL7 protocol are also supported."
+    },
+    {
+      "id":"medical-pump",
+      "name":"Medical Pump", 
+      "image":"/images/products/ppritzenpumpe-ipn-56.webp",
+      "count":2,
+
+      "description":"SternMed medical pumps are characterized by their simple user interface. They are durable and reliable in everyday clinical practice."
+    },
+    {
+      "id":"ventilator",
+      "name":"Ventilator",
+      "image":"/images/products/beatmungsgeraet_vento-62-left.webp",
+      "count":1,
+      "description":"The SternMed ventilator is used in a patient’s respiratory insufficiency. For ventilation therapy, either time, pressure or volume control can be selected. The proportional valve control technology ensures the corresponding tidal volumes."
+    }
+  ]
+    
+} 
+]
+    
