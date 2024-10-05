@@ -2,8 +2,13 @@ import Categories from "@/components/Categories";
 import ExtraHeader from "@/components/ExtraHeader";
 import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
-import Slider from "@/components/Slider";
+import dynamic from "next/dynamic";
 
+
+const Slider = dynamic(
+  () => import('@/components/Slider'),
+  { ssr: false }
+  )
 
 export default function Home() {
   return (
