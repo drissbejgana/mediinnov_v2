@@ -7,7 +7,7 @@ export default function ExtraHeader() {
               className="flex  items-center xl:gap-6 gap-3 xl:flex-nowrap flex-wrap lg:w-auto w-full"
               id="funding_form_one_time_funding">
 
-                <h2 className="text-2xl w-9/12 font-semibold">
+                <h2 className="text-2xl md:w-9/12 font-semibold">
                 At <span className="text-[#bb1f22] uppercase">Mediinnov</span>, we believe everyone deserves access to quality healthcare, and we’re here to make it happen.
                 </h2>
 
