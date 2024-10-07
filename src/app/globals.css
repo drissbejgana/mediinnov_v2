@@ -11,6 +11,9 @@
   }
 }
 
+html{
+  scroll-behavior: smooth ;
+}
 
 .nav-menu {
   align-items: center;
@@ -80,3 +83,20 @@ background-color: #303030;
 display: inline-block;
 margin-left: 10px;
 }
+
+
+#medical-li:hover>#medical-list{
+  display: block !important;
+
+}
+#solutions-li:hover>#solutions-list{
+  display: block !important;
+
+}
+
+#patient-li:hover>#patient-list{
+  display: block !important;
+
+}
+
+/* TEST */

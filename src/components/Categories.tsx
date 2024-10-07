@@ -66,12 +66,11 @@ const Categories = () => {
 
   
     return (
-      <section className="max-w-screen-xl mx-auto 2xl:my-20 lg:my-14 my-12">
+      <section className="max-w-screen-xl mx-auto 2xl:my-20 lg:my-14 mb-12">
         <div className="container">
-          <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">
-              Our medical devices
-          </h2>
-            
+          <p className="text-center text-[#343131] text-2xl font-bold text-gary-800 xl:mb-8 mb-4">
+            Just choose
+          </p>
             <div>
                 <ul className="flex justify-center w-full my-5 cursor-pointer">
                   <li onClick={()=>setCategory('Medical Imaging')} className={`text-center ${category=='Medical Imaging'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>Medical Imaging</li>
@@ -92,7 +91,7 @@ const Categories = () => {
                     alt={category.name}
                     title={category.name}
                     loading="lazy"
-                    className="w-full h-[190px] object-contain"
+                    className="w-full h-[190px] object-contain hover:scale-1 hover:scale-150 ease-in duration-150"
                     src={category.image}
                     width={320}
                     height={190}
@@ -108,11 +107,11 @@ const Categories = () => {
                         title="heart-life"
                         loading="lazy"
                         src="/favicon.webp"
-                        width={32}
-                        height={32}
+                        width={24}
+                        height={24}
                      
                       />
-                    <span className="uppercase text-sm mx-3">
+                    <span className="uppercase text-sm mx-2">
                        Sternmed
                     </span>
                   </div>
@@ -171,7 +170,7 @@ const Categories = () => {
 
           <div className="xl:mt-10 mt-5 text-center">
 
-            <Link className="focus:outline-none text-[17px] text-[#bb1f22] hover:text-white bg-[#EEDF7A]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-gray-800" href="/browse-products">
+            <Link className="focus:outline-none text-[17px] text-[#bb1f22] hover:text-white bg-[#EEDF7A]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-gray-800" href="#products">
               Browse all Equipments
             </Link>
           </div>

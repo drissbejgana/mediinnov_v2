@@ -1,14 +1,44 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
-const FeaturesSection = () => {
+
+const NewsLetter = () => {
+ const news=[{
+    id:1,
+    title:'Title 1',
+    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
+    image:'/images/bg_mediinnov.jpg'
+ },
+ {
+    id:2,
+    title:'Title 2',
+    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
+    image:'/images/bg_mediinnov.jpg'
+ },
+ {
+    id:3,
+    title:'Title 3',
+    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
+    image:'/images/bg_mediinnov.jpg'
+ },
+ {
+    id:4,
+    title:'Title 4',
+    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
+    image:'/images/bg_mediinnov.jpg'
+ }
+
+]
+
+
   return (
     <section className="bg-primary-400 mx-5 xl:py-12 py-8">
       <div className="container mx-auto">
-      <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">OUR SOLUTIONS</h2>
-      
-        <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mt-8">
+      <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">NewsLetter</h2>
 
-          <div className="bg-white shadow-lg border border-gray-200 rounded-lg shadow-input xl:p-8 p-6">
+        <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mt-8">
+
+          {/* <div className="bg-white shadow-lg border border-gray-200 rounded-lg shadow-input xl:p-8 p-6">
             <span className="md:w-16 md:h-16 w-14 h-14 border border-red-900 group-hover:bg-[#303030]  rounded-full bg-primary-400 flex items-center justify-center">
                 <svg className="my-5 fill-red-800  transition-all duration-500 group-hover:!fill-white" version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="32.000000pt" height="32.000000pt" viewBox="0 0 512.000000 512.000000"
@@ -61,38 +91,65 @@ const FeaturesSection = () => {
             <p className="text-md">
             MEDI'INNOV ultrasound systems, magnetic resonance technology and x-ray devices provide a comprehensive portfolio of complete hard & software solutions tailored for global imaging needs
             </p>
-          </div>
+          </div> */}
+        {
+        news.map((item:any)=>
+            <div
+        key={item.id}
+        className="bg-white border rounded-md shadow-lg product-item"
+      >
+        <Link href="/contribute">
+        <Image
+            alt="product item"
+            title="product item"
+            loading="lazy"
+            className="w-full  "
+            src={item.image}
+            width={320}
+            height={190}
+          />
+        </Link>
+         <div className="p-4">
+            <Link className="title text-2xl text-[#343131]" href="/contribute">
+                {item.title}
+            </Link>
+        <p className='text-md '>
+            {item.description}
+        </p>
+        
 
-          <div className="bg-white shadow-lg border border-gray-200 rounded-lg shadow-input xl:p-8 p-6">
-            <span className="md:w-16 md:h-16 w-14 h-14 border border-red-900 rounded-full bg-primary-400 flex items-center justify-center">
+    
 
-            <svg className="w-10 h-10 my-5 transition-all fill-red-800 duration-500 group-hover:text-white"  aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-              <path fillRule="evenodd" d="M7.05 4.05A7 7 0 0 1 19 9c0 2.407-1.197 3.874-2.186 5.084l-.04.048C15.77 15.362 15 16.34 15 18a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1c0-1.612-.77-2.613-1.78-3.875l-.045-.056C6.193 12.842 5 11.352 5 9a7 7 0 0 1 2.05-4.95ZM9 21a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1Zm1.586-13.414A2 2 0 0 1 12 7a1 1 0 1 0 0-2 4 4 0 0 0-4 4 1 1 0 0 0 2 0 2 2 0 0 1 .586-1.414Z" clipRule="evenodd"/>
+
+           <Link href={'/'} className="text-white text-sm  mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
+               Read More
+            <svg
+              width="11"
+              height="12"
+              className="mt-1 mx-4"
+              viewBox="0 0 11 9"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <path
+                  d="M7.7459 0.259613H4.8584L8.06673 4.5L4.8584 8.74038H7.7459L10.9542 4.5L7.7459 0.259613Z"
+                  fill="currentcolor"
+                />
+                <path
+                  d="M3.2542 0.259613H0.366699L3.57503 4.5L0.366699 8.74038H3.2542L6.46253 4.5L3.2542 0.259613Z"
+                  fill="currentcolor"
+                />
+              </g>
             </svg>
+          </Link>
+        </div>
+      </div>
+        
+        )
+        }
 
 
-            </span>
-            <p className="my-4 2xl:text-xl text-lg font-semibold leading-tight text-gray-800">
-              OR Solutions
-            </p>
-            <p className="text-md">
-              OR Solutions from SternMed, including anesthesia units, surgical tables and surgical lights, are designed to support clinicians worldwide to provide health care for their patients.
-            </p>
-          </div>
-
-      
-          <div className="bg-white shadow-lg border border-gray-200 rounded-lg shadow-input xl:p-8 p-6">
-            <span className="md:w-16 md:h-16 w-14 h-14 border border-red-900 rounded-full bg-primary-400 flex items-center justify-center">
-              <svg className="my-5 w-10 h-10 fill-red-800 transition-all duration-500 group-hover:!fill-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M224 24V80H168c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h56v56c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V176h56c13.3 0 24-10.7 24-24V104c0-13.3-10.7-24-24-24H320V24c0-13.3-10.7-24-24-24H248c-13.3 0-24 10.7-24 24zM559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h16 64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288 272 193.7c-29.1 0-57.3 9.9-80 28L68.8 384H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H192 352.5c29 0 57.3-9.3 80.7-26.5l126.6-93.3zm-367-8.2l.9 0 0 0c-.3 0-.6 0-.9 0z"/></svg>
-            </span>
-            <p className="my-4 2xl:text-xl text-lg font-semibold leading-tight text-gray-800">
-                Patient Care
-            </p>
-
-            <p className="text-md">
-                 MEDI'INNOV provides patient care devices like patient monitors, infusion and syringe pumps and medical ventilators, to support clinicians in giving exceptional patient care to their patients.
-            </p>
-          </div>
 
    
           
@@ -102,4 +159,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default NewsLetter;

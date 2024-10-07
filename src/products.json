@@ -6,14 +6,14 @@
                 {
                   "title": "Marcom 0.35T",
                   "description": "permanement magnet MRI",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/mri_marcom-0.35T.webp",
+                  "image":"/images/products/mrt-scanner_marcom-0.35t-right.webp",
                   "link": "/service-details/",
                   "category":"mri"
                 },
                 {
                   "title": "Marcom 0.5T",
                   "description": "permanement magnet MRI",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/mri-marcom-0.5T.webp",
+                  "image": "/images/products/mrt-scanner_marcom-0.5t-left-shadow.webp",
                   "link": "/service-details/",
                    "category":"mri"
 
@@ -21,7 +21,7 @@
                 {
                   "title": "Marcom 1.5T",
                   "description": "superconductive MRI scanner",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/MRI-marcom-1-5T.webp",
+                  "image": "/images/products/marcom-1-5T-MRI.webp",
                   "link": "/service-details/",
                   "category":"mri"
 
@@ -29,70 +29,70 @@
                 {
                   "title": "Cytom 16",
                   "description": "multi-slice ultra-fast CT scanner",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/CT_Cytom_16-scaled.webp",
+                  "image": "/images/products/CT_Cytom_16-scaled.webp",
                   "link": "/service-details/",
                   "category":"ct"
                 },
                 {
                   "title": "Xenox RF1000",
                   "description": "fluoroscopy system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/FLUOROSCOPY-RF1000.webp",
+                  "image": "/images/products/FLUOROSCOPY-RF1000.webp",
                   "link": "/service-details/",
                   "category":"fluoroscopy"
                 },
                 {
                   "title": "Xenox M70",
                   "description": "mobile x-ray system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-M70.webp",
+                  "image": "/images/products/M70.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Xenox M80",
                   "description": "mobile x-ray system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-xenox-M80.webp",
+                  "image": "/images/products/roentgensystem-xenox-m80-front.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Xenox M90",
                   "description": "mobile x-ray system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-M90.webp",
+                  "image": "/images/products/M90-2.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Xenox RAD 400",
                   "description": "radiography system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-RAD-400.webp",
+                  "image": "/images/products/Radiography-Xenox-RAD-400.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Xenox DR500",
                   "description": "digital radiography system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Radiography-Xenox-DR-500.webp",
+                  "image": "/images/products/Radiography-Xenox-DR-500.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Xenox M100 Plus",
                   "description": "motor-driven mobile DR x-ray system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/radiography-xenox-m100-plus.webp",
+                  "image": "/images/products/radiography-xenox-m100-plus.png",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
                   "title": "Sonos 10",
                   "description": "diagnostic ultrasound system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Ultrasound-sonos-10.webp",
+                  "image": "/images/products/Ultrasound-sonos-10.webp",
                   "link": "/service-details/",
                   "category":"ultrasound"
                 },
                 {
                   "title": "Sonos 12",
                   "description": "diagnostic ultrasound system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Ultrasound-sonos-12.webp",
+                  "image": "/images/products/Ultrasound-sonos-12.webp",
                   "link": "/service-details/",
                   "category":"ultrasound"
                 },
@@ -100,35 +100,35 @@
                 {
                   "title": "Xenox C100",
                   "description": "mobile c-arm",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_C-arm-Xenox-C100-1.webp",
+                  "image": "/images/products/Mobile_C-arm-Xenox-C100-1.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
                   "title": "Xenox C200",
                   "description": "mobile c-arm",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_C-arm-xenox-c200.webp",
+                  "image": "/images/products/Mobile_C-arm-xenox-c200.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
                   "title": "Xenox C400",
                   "description": "mobile c-arm",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mobile_Carm-Xonox-C400.webp",
+                  "image": "/images/products/Mobile_Carm-Xonox-C400.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
                   "title": "Xenox S100",
                   "description": "mammography system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mammo-Xenox-S100.webp",
+                  "image": "/images/products/Mammo-Xenox-S100.webp",
                   "link": "/service-details/",
                   "category":"mammography"
                 },
                 {
                   "title": "Xenox S200",
                   "description": "full-field digital mammography system",
-                  "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Mammo-Xenox-S200T.webp",
+                  "image": "/images/products/Mammo-Xenox-S200T.webp",
                   "link": "/service-details/",
                   "category":"mammography"
                 }
@@ -198,14 +198,14 @@
       {
           "title": "Lumax 25",
           "description": "surgical LED light",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Lumax-25.png",
+          "image":"/images/products/Lumax-25.png",
           "link": "/service-details/",
           "category":"surgical-light"
       },
       {
           "title": "Lumax 3 & 5",
           "description": "Surgical LED light",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Lumax-3-5.webp",
+          "image": "/images/products/Lumax-3-5.webp",
           "link": "/service-details/",
           "category":"surgical-light"
 
@@ -213,7 +213,7 @@
       {
           "title": "Onex 101",
           "description": "manual surgery table",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/onex-101.webp",
+          "image": "/images/products/onex-101.webp",
           "link": "/service-details/",
           "category":"surgical-table"
 
@@ -221,49 +221,49 @@
       {
           "title": "Onex 102",
           "description": "electro-hydraulic surgery table",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/onex-102.webp",
+          "image": "/images/products/onex-102.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
           "title": "Onex 201",
           "description": "manual surgery table",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-201.webp",
+          "image": "/images/products/Onex-201.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
           "title": "Onex 202",
           "description": "electro-hydraulic surgery table",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-202.webp",
+          "image": "/images/products/Onex-202.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
           "title": "Onex 203",
           "description": "electro-hydraulic surgery table",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/Onex-203.webp",
+          "image": "/images/products/Onex-203.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
           "title": "Avacs 50",
           "description": "anesthesia unit",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/avacs-50.webp",
+          "image": "/images/products/avacs-50.webp",
           "link": "/service-details/",
           "category":"anesthesia-unit"
       },
       {
           "title": "Ecut 400S",
           "description": "electrosurgical unit",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ECUT-400s.webp",
+          "image": "/images/products/ECUT-400s.webp",
           "link": "/service-details/",
           "category":"esu"
       },
       {
           "title": "Ecut 400S Plus",
           "description": "electrosurgical unit",
-          "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ecut-400S-Plus.webp",
+          "image": "/images/products/ecut-400S-Plus.webp",
           "link": "/service-details/",
           "category":"esu"
       }
@@ -311,7 +311,7 @@
     {
         "title": "Macs 10",
         "description": "multi parameter patient monitor",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-10.webp",
+        "image":"/images/products/patientenmonitor-marcs-10-left-3.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
         
@@ -319,49 +319,49 @@
     {
         "title": "Macs 20",
         "description": "multi parameter patient monitor",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-20.webp",
+        "image": "/images/products/macs-20.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
         "title": "Macs 30",
         "description": "multi parameter patient monitor",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs-30.webp",
+        "image": "/images/products/macs-30.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
         "title": "Macs 50",
         "description": "modular patient monitor",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/macs50.webp",
+        "image": "/images/products/macs50.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
         "title": "PC-Macs Series",
         "description": "central monitoring - Macs series",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/pc-macs-serie.webp",
+        "image": "/images/products/pc-macs-serie.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
         "title": "IPN 56",
         "description": "infusion pump",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/ipn-56.webp",
+        "image": "/images/products/ipn-56.webp",
         "link": "/service-details/",
         "category":"medical-pump"
     },
     {
         "title": "SPN 58",
         "description": "syringe pump",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/spn-58.webp",
+        "image": "/images/products/spn-58.webp",
         "link": "/service-details/",
         "category":"medical-pump"
     },
     {
         "title": "Vento 62",
         "description": "ventilator",
-        "image": "https://mediinnov.ma/wp-content/uploads/2023/02/vento-62.webp",
+        "image": "/images/products/vento-62.webp",
         "link": "/service-details/",
         "category":"ventilator"
     }

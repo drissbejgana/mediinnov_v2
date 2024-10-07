@@ -30,7 +30,7 @@ const HeroSection = () => {
           <p className="text-white font-light  2xl:text-xl lg:text-lg text-md lg:mb-8 mb-4">
            We deliver customized solutions that meet your project’s budget, timeline, and technical needs, all focused on improving patient care.
           </p>
-          <Link className="focus:outline-none  text-[17px] text-[#bb1f22] bg-[#D2EDF6]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/">
+          <Link className="focus:outline-none  text-[17px] text-[#bb1f22] bg-[#D2EDF6]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/about">
              About us
           </Link>
           <div className="lg:mt-12 mt-8"></div>
