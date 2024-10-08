@@ -24,7 +24,7 @@ export default function Slider() {
             <Image
             
             alt="Salle de radiologie"
-            src="/images/salle-radio.jpg"
+            src="/images/Salle-radiologie.jpg"
             width={500}
             height={100}
             />
@@ -53,7 +53,7 @@ export default function Slider() {
         <Image
             
             alt="Salle de radiologie"
-            src="/images/radiologie_dentaire.jpg"
+            src="/images/Imagerie-dentaire.jpg"
             width={500}
             height={100}
             />
@@ -68,7 +68,7 @@ export default function Slider() {
         <Image
             
             alt="Salle de radiologie"
-            src="/images/Medecine_Echographie.jpg"
+            src="/images/echographie.jpg"
             width={500}
             height={100}
             />
@@ -97,7 +97,7 @@ export default function Slider() {
           <Image
             
             alt="Salle de radiologie"
-            src="/images/suivi-medical.png"
+            src="/images/suivi-medical.jpg"
             width={500}
             height={100}
             />

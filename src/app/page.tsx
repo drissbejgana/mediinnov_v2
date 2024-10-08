@@ -36,15 +36,15 @@ export default function Home() {
           </div>
           <div className="flex text-white p-8 flex-col-reverse items-center ">
               <div className="text-md md:text-xl my-2">Visitors Annually</div> 
-              <div className="text-2xl md:text-4xl font-bold">6m+</div> 
+              <div className="text-2xl md:text-4xl font-bold">6k+</div> 
           </div>
            <div className="flex text-white p-8 flex-col-reverse items-center ">
               <div className="text-md md:text-xl my-2">Customer Support</div> 
               <div className="text-2xl md:text-4xl font-bold">24/7</div> 
           </div>
           <div className="flex text-white p-8 flex-col-reverse items-center ">
-              <div className="text-md md:text-xl my-2">Donate via our fund raising</div> 
-              <div className="text-2xl md:text-4xl font-bold">$250m+</div> 
+              <div className="text-md md:text-xl my-2">Devices</div> 
+              <div className="text-2xl md:text-4xl font-bold">$10m+</div> 
           </div>
 
      </section>

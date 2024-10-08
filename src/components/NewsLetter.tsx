@@ -3,29 +3,18 @@ import Link from 'next/link';
 
 
 const NewsLetter = () => {
- const news=[{
+ const news=[
+ {
     id:1,
-    title:'Title 1',
+    title:'Title 3',
     description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
-    image:'/images/bg_mediinnov.jpg'
+    image:'/images/newsletter/mammography.jpeg'
  },
  {
     id:2,
-    title:'Title 2',
-    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
-    image:'/images/bg_mediinnov.jpg'
- },
- {
-    id:3,
-    title:'Title 3',
-    description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
-    image:'/images/bg_mediinnov.jpg'
- },
- {
-    id:4,
     title:'Title 4',
     description:' Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim exercitationem aspernatur eligendi veritatis nobis, quibusdam molestias perspiciatis. Nobis velit aperiam incidunt tempore excepturi temporibus ducimus iure dolorem, repellat cum. Molestiae?',
-    image:'/images/bg_mediinnov.jpg'
+    image:'/images/newsletter/macrom.jpeg'
  }
 
 ]
@@ -103,24 +92,13 @@ const NewsLetter = () => {
             alt="product item"
             title="product item"
             loading="lazy"
-            className="w-full  "
+            className="w-full "
             src={item.image}
             width={320}
             height={190}
           />
         </Link>
          <div className="p-4">
-            <Link className="title text-2xl text-[#343131]" href="/contribute">
-                {item.title}
-            </Link>
-        <p className='text-md '>
-            {item.description}
-        </p>
-        
-
-    
-
-
            <Link href={'/'} className="text-white text-sm  mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
                Read More
             <svg
@@ -144,7 +122,7 @@ const NewsLetter = () => {
             </svg>
           </Link>
         </div>
-      </div>
+            </div>
         
         )
         }
