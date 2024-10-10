@@ -3,9 +3,9 @@ import ExtraHeader from "@/components/ExtraHeader";
 import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
 import NewsLetter from "@/components/NewsLetter";
-import Products from "@/components/products";
 import Sectionroducts from "@/components/Sectionproducts";
 import dynamic from "next/dynamic";
+import ContactSection from "@/components/ContactSection";
 
 
 const Slider = dynamic(
@@ -50,6 +50,7 @@ export default function Home() {
      </section>
     <Sectionroducts/>
     <NewsLetter/>
+   <ContactSection/>
    </div>
   );
 }

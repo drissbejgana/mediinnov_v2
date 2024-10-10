@@ -139,12 +139,14 @@
                   "name":"Mri",
                   "image":"/images/products/MRI-marcom-1-5T.webp",
                   "count":3,
+                  "link":"/medical-imaging/mri",
                   "description":"Magnetic Resonance Imaging (MRI) is an imaging technique based on the magnetic alignment of hydrogen atoms. Water-containing tissue thus allows a very detailed rep- resentation of filigree structures. In the human body, these are, for example, internal organs, articular cartilage, spinal – cord or brain."
                 },
                {
                   "id":"ct",
                   "name":"CT",
                   "count":1,
+                  "link":"/medical-imaging/ct",
                   "image":"/images/products/CT_Cytom_16-scaled.webp",
                   "description":"Computed tomography (CT) is an X-ray examination that can be used to create layered images of the human body. The Cytom 16 from SternMed GmbH can dissolve a consid- erable minimum layer thickness of 0.625 mm. The fields of application in medicine are very diverse. They range from ECG synchronized images of the heart, to the emergency examination of the most seriously injured, to bone density measurement by the pivoting gantry."
                 },
@@ -152,6 +154,7 @@
                   "id":"fluoroscopy",
                   "name":"Fluoroscopy",
                   "count":1,
+                  "link":"/medical-imaging/fluoroscopy",
                   "image":"/images/products/FLUOROSCOPY-RF1000.webp",
                   "description":"Fluoroscopy is used, among other things, to represent the dynamic processes in the human body, such as the swallowing process. SternMed’s fast serial exposure (S.F.D) enables function control of catheters and ports. By means of contrast agents, the gas- trointestinal tract can be made more visible."
                 },
@@ -159,15 +162,15 @@
                   "id":"radiography",
                   "name":"Radiography",
                   "count":6,
-
-                   "image":"/images/products/Radiography-Xenox-RAD-400.webp",
+                  "link":"/medical-imaging/radiography",
+                  "image":"/images/products/Radiography-Xenox-RAD-400.webp",
                   "description":"In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved detective-quantum- efficiency)."
                 },
                {
                   "id":"ultrasound",
                   "name":"Ultrasound",
                   "count":2,
-
+                  "link":"/medical-imaging/ultrasound",
                    "image":"/images/products/Ultrasound-sonos-12.webp",
                   "description":"Ultrasound, also known as sonography, is used in diagnostics and live control for difficult procedures. offers a variety of ultrasound heads (transducers) for various investigations. For example, abdominal sonography, echocardiography and mammosonography."
                 },
@@ -175,6 +178,7 @@
                   "id":"mobile-c-arm",
                   "name":"Mobile C-arm",
                   "count":3,
+                  "link":"/medical-imaging/mobile-c-arm",
                   "image":"/images/products/Mobile_Carm-Xonox-C400.webp",
                   "description":"A mobile C-arm enables the radiological examination of the patient without relocating. The SternMed image amplifier provides reliable images during surgery of the hand and limbs or spine. It is also widely used in angiographic studies and interventions."
                 },
@@ -182,8 +186,8 @@
                   "id":"mammography",
                   "name":"Mammography",
                   "count":2,
-
-                   "image":"/images/products/Mammo-Xenox-S200T.webp",
+                  "link":"/medical-imaging/mammography",
+                  "image":"/images/products/Mammo-Xenox-S200T.webp",
                   "description":"In conventional X-rays, areas of the human body are irradiated from a single direction with X-rays. Suitable detectors on the opposite side convert the received radiation into an image. Using the latest technology, the image quality can be increased and at the same time the radiation load can be significantly reduced (improved detective-quantum-efficiency)."
                 }
 
@@ -274,6 +278,7 @@
             "name":"Surgical Light",
             "image":"/images/products/Lumax-25.png",
             "count":2,
+            "link":"/or-solutions/surgical-light",
             "description":"MEDI'INNOV products in operation room category including Anesthesia Machine, OR Surgery Table and Surgical Light are designed to support healthcare facilities to provide safe and cost-effective health care to their patients."
           },
           {
@@ -281,6 +286,7 @@
             "name":"Surgical Table",
             "image":"/images/products/operationstisch-onex-101-left-4.webp",
             "count":5,
+            "link":"/or-solutions/surgical-table",
             "description":"OR – SternMed tables are available in 5 models up to maximum patient weight capacity of 300 kg. The patient’s comfort is also ensured by highly stable hydraulic systems. The surgical requirements meet the operating tables with their flexibility in positioning and simple handling"
           },
           {
@@ -288,6 +294,7 @@
             "name":"Anesthesia Unit",
             "image":"/images/products/anaesthesiegeraet-avacs-50-left2.webp",
             "count":1,
+            "link":"/or-solutions/anesthesia-unit",
             "description":"The anaesthesia device mixes medical gases with inhalational anaesthetic (e.g. isoflurane, sevoflurane or desflurane). The SternMed system offers different ventilation modes for adults, children and infants."
           },
           {
@@ -295,6 +302,7 @@
             "name":"ESU",
             "image":"/images/products/ECUT-400s.webp",
             "count":2,
+            "link":"/or-solutions/esu",
             "description":"The versatile electrosurgery devices from SternMed are argon assisted. The automatic adjustment of the cutting and coagulation performance are the further highlights."
           }
 
@@ -372,6 +380,7 @@
       "name":"Patient Monitor",
       "image":"/images/products/patientenmonitor-marcs-10-left-3.webp",
       "count":4,
+      "link":"/patient-care/patient-monitor",
       "description":"SternMed patient monitors reliably determine multiple physiological parameters such as ECG, RESP, Temperature, SpO2 and NIBP. All data can be transmitted to a central monitoring station. Network solutions with HL7 protocol are also supported."
     },
     {
@@ -379,7 +388,7 @@
       "name":"Medical Pump", 
       "image":"/images/products/ppritzenpumpe-ipn-56.webp",
       "count":2,
-
+      "link":"/patient-care/medical-pump",
       "description":"SternMed medical pumps are characterized by their simple user interface. They are durable and reliable in everyday clinical practice."
     },
     {
@@ -387,6 +396,7 @@
       "name":"Ventilator",
       "image":"/images/products/beatmungsgeraet_vento-62-left.webp",
       "count":1,
+      "link":"/patient-care/ventilator",
       "description":"The SternMed ventilator is used in a patient’s respiratory insufficiency. For ventilation therapy, either time, pressure or volume control can be selected. The proportional valve control technology ensures the corresponding tidal volumes."
     }
   ]

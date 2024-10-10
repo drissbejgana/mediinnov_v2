@@ -81,12 +81,12 @@ const Categories = () => {
 
           <div className="grid xl:grid-cols-4 lg:grid-cols-3 min-[575px]:grid-cols-2 grid-cols-1 gap-6 mx-12 md:mx-auto">
            {
-            products?.map((category:{id:string,name:string,image:string,count:number}) => (
+            products?.map((category:{id:string,name:string,image:string,count:number,link:string}) => (
               <div
                 key={category.id}
                 className="bg-white border rounded-md shadow-lg product-item"
               >
-                <Link href="/contribute">
+                <Link href={category.link}>
                 <Image
                     alt={category.name}
                     title={category.name}
@@ -98,7 +98,7 @@ const Categories = () => {
                   />
                 </Link>
                  <div className="p-4">
-                    <Link className="title font-bold text-[#343131]" href="/contribute">
+                    <Link className="title font-bold text-[#343131]" href={category.link}>
                         {category.name}
                     </Link>
                   <div className="flex items-center my-2">
@@ -138,7 +138,7 @@ const Categories = () => {
                   </div>
 
      
-                   <Link href={'/'} className="text-white text-sm mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
+                   <Link href={category.link} className="text-white text-sm mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
                      Explore
                     <svg
                       width="11"

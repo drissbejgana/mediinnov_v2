@@ -4,13 +4,6 @@
 
 
 
-
-@media (min-width: 992px) {
-  .nav-menu {
-      display: flex;
-  }
-}
-
 html{
   scroll-behavior: smooth ;
 }
@@ -196,5 +189,12 @@ margin-left: 10px;
     padding: 0 !important;
   }
 
-
 }
+
+@media (min-width: 992px) {
+  .nav-menu {
+      display: flex;
+  }
+}
+
+

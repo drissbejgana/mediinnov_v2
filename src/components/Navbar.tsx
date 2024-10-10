@@ -27,11 +27,11 @@ export default function Navbar() {
 
     return (
         <nav className={`${!header ? '' : 'op'} bg-white  w-full z-20  start-0 border-b border-gray-200`}>
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                 
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image
-                        className="relative"
+                        className="relative "
                         src="/images/mediinnov_logo_R.png"
                         alt="centrevictorhugoradiologie Logo"
                         width={125}
@@ -128,7 +128,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="flex md:order-2 mx-auto lg:mx-10 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <Link href={'#start'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">Get started</Link>
+                <Link href={'/#start'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">Get started</Link>
                 </div>
                 <button onClick={() => setMenuOpen(!menuOpen)} type="button" className="absolute top-5 right-5 inline-flex items-center p-2 w-10 h-10 justify-center text-sm font-semibold text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                     <span className="sr-only">Open main menu</span>
