@@ -19,18 +19,19 @@ export default function Slider() {
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         
 
-        <div className="hidden flex duration-700 ease-in-out" data-carousel-item>
-            
+        <div className="hidden flex duration-700  ease-in-out" data-carousel-item>
+        
             <Image
-            
             alt="Salle de radiologie"
             src="/images/Salle-radiologie.jpg"
             width={500}
             height={100}
+            className="w-1/2"
+
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Salle de radiologie</h3>
-                <p className="text-sm">Découvrez nos équipements modernes de radiologie, offrant des résultats précis et un confort optimal pour tous les patients.</p>
+            <div className=" w-1/2  md:md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">Salle de radiologie</h3>
+                <p className="  font-semibold md:mt-5 text-sm md:text-md">Découvrez nos équipements modernes de radiologie, offrant des résultats précis et un confort optimal pour tous les patients.</p>
             </div>
         </div>
 
@@ -41,10 +42,11 @@ export default function Slider() {
             src="/images/Imagerie-femme.jpg"
             width={500}
             height={100}
+            className="w-1/2"
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Imagerie de la femme</h3>
-                <p className="text-sm">Spécialisée dans les soins pour la femme, notre clinique propose des examens d’imagerie personnalisés pour le suivi gynécologique et obstétrical.</p>
+            <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Imagerie de la femme</h3>
+                <p className="text-sm md:text-md font-semibold md:mt-5">Spécialisée dans les soins pour la femme, notre clinique propose des examens d’imagerie personnalisés pour le suivi gynécologique et obstétrical.</p>
             </div>
         </div>
 
@@ -56,10 +58,11 @@ export default function Slider() {
             src="/images/Imagerie-dentaire.jpg"
             width={500}
             height={100}
+            className="w-1/2"
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Imagerie dentaire</h3>
-                <p className="text-sm">Nos radiographies dentaires permettent un diagnostic précis, essentiel pour des soins bucco-dentaires de qualité.</p>
+            <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Imagerie dentaire</h3>
+                <p className="text-sm md:text-md font-semibold md:mt-5">Nos radiographies dentaires permettent un diagnostic précis, essentiel pour des soins bucco-dentaires de qualité.</p>
             </div>
         </div>
 
@@ -71,10 +74,11 @@ export default function Slider() {
             src="/images/echographie.jpg"
             width={500}
             height={100}
+            className="w-1/2"
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Échographie</h3>
-                <p className="text-sm">Notre service d’échographie utilise la dernière technologie pour des examens sûrs, rapides et fiables.</p>
+            <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Échographie</h3>
+                <p className="text-sm md:text-md font-semibold md:mt-5">Notre service d’échographie utilise la dernière technologie pour des examens sûrs, rapides et fiables.</p>
             </div>
         </div>
 
@@ -86,10 +90,11 @@ export default function Slider() {
             src="/images/gestion-cabinet-médical.jpg"
             width={500}
             height={100}
+            className="w-1/2"
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Gestion du cabinet</h3>
-                <p className="text-sm">Notre système de gestion du cabinet assure une organisation efficace pour un suivi médical sans faille.</p>
+            <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Gestion du cabinet</h3>
+                <p className="text-sm md:text-md font-semibold md:mt-5">Notre système de gestion du cabinet assure une organisation efficace pour un suivi médical sans faille.</p>
             </div>
         </div>
 
@@ -100,10 +105,11 @@ export default function Slider() {
             src="/images/suivi-medical.jpg"
             width={500}
             height={100}
+            className="w-1/2"
             />
-            <div className="absolute w-1/2 bg-gray-50/60 sm:bg-[#EEDF7A]/60 py-8 px-5 text-gray-800 md:top-12 right-12">
-                <h3 className="text-[#bb1f22] text-2xl">Suivi médical et interprétation</h3>
-                <p className="text-sm">Notre équipe médicale vous accompagne pour une interprétation claire des résultats et un suivi personnalisé.</p>
+            <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
+                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Suivi médical et interprétation</h3>
+                <p className="text-sm md:text-md font-semibold md:mt-5">Notre équipe médicale vous accompagne pour une interprétation claire des résultats et un suivi personnalisé.</p>
             </div>
         </div>
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id='start'>
       <div className="flex items-stretch lg:flex-nowrap flex-wrap bg-[#bb1f22]">
 
         <div className="lg:w-2/5  w-full bg-white">

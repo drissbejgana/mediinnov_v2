@@ -26,7 +26,7 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className={`${!header ? '' : 'op'} bg-white relative w-full z-20  start-0 border-b border-gray-200`}>
+        <nav className={`${!header ? '' : 'op'} bg-white  w-full z-20  start-0 border-b border-gray-200`}>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 
                 <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -123,12 +123,12 @@ export default function Navbar() {
                             <Link href="/about" className={`block ${pathname === '/about' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>ABOUT US</Link>
                         </li>
                         <li>
-                            <Link href="/contact" className={`block ${pathname === '/articles' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>CONTACT</Link>
+                            <Link href="/contact" className={`block ${pathname === '/contact' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="flex md:order-2 mx-auto lg:mx-10 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <Link href={'/'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">Contact Us</Link>
+                <Link href={'#start'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">Get started</Link>
                 </div>
                 <button onClick={() => setMenuOpen(!menuOpen)} type="button" className="absolute top-5 right-5 inline-flex items-center p-2 w-10 h-10 justify-center text-sm font-semibold text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                     <span className="sr-only">Open main menu</span>

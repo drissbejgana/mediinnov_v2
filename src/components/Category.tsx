@@ -33,7 +33,7 @@ export default function Category({ id, category }: Props) {
             <div >
                 <h3 className="left-line">OUR PRODUCTS</h3>
                 <h2 className="mt-5 text-4xl titre w-full md:w-2/4 ">{cate?.name}</h2>
-                <p className="mt-12 descritpion !text-sm md:w-3/4  !leading-7">
+                <p className="my-6 descritpion !text-sm md:w-3/4  !leading-7">
                      {cate?.description}
                 </p>
             </div>
