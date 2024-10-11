@@ -403,34 +403,7 @@ function Search() {
 
 export default function page() {
 
-    const [show,setShow]=useState(false)
-
-     const searchParams = useSearchParams()
-       
-     const id = searchParams.get('id') || 0
-     const category = searchParams.get('category')
-     const [product, setProduct] = useState<Product>();
-         
-     useEffect(()=>{
-        async function getProducts() {
-            const response = await fetch('/api/products');
-            const data = await response.json();
-            console.log(data)
-            const filteredProducts = await data.find((item: any) => item.id == category)?.prodcuts || [];
-            
-             const pro = filteredProducts.find((item: Product) => item.id==id);
-              
-
-            setProduct(pro)
-          
-        }
-
-        getProducts();
-         
-     },[id,category])
-    
-
   return <Suspense>
            <Search/>
-  </Suspense>
+        </Suspense>
 }
