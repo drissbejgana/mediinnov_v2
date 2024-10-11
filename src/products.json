@@ -4,14 +4,14 @@
             "name":"Medical Imaging",
             "prodcuts":[
                 {
-                  "title": "Marcom 0.35T",
+                  "id":1, "title": "Marcom 0.35T",
                   "description": "permanement magnet MRI",
                   "image":"/images/products/mrt-scanner_marcom-0.35t-right.webp",
                   "link": "/service-details/",
                   "category":"mri"
                 },
                 {
-                  "title": "Marcom 0.5T",
+                  "id":2, "title": "Marcom 0.5T",
                   "description": "permanement magnet MRI",
                   "image": "/images/products/mrt-scanner_marcom-0.5t-left-shadow.webp",
                   "link": "/service-details/",
@@ -19,7 +19,7 @@
 
                 },
                 {
-                  "title": "Marcom 1.5T",
+                  "id":3, "title": "Marcom 1.5T",
                   "description": "superconductive MRI scanner",
                   "image": "/images/products/marcom-1-5T-MRI.webp",
                   "link": "/service-details/",
@@ -27,70 +27,70 @@
 
                 },
                 {
-                  "title": "Cytom 16",
+                  "id":4, "title": "Cytom 16",
                   "description": "multi-slice ultra-fast CT scanner",
                   "image": "/images/products/CT_Cytom_16-scaled.webp",
                   "link": "/service-details/",
                   "category":"ct"
                 },
                 {
-                  "title": "Xenox RF1000",
+                  "id":5, "title": "Xenox RF1000",
                   "description": "fluoroscopy system",
                   "image": "/images/products/FLUOROSCOPY-RF1000.webp",
                   "link": "/service-details/",
                   "category":"fluoroscopy"
                 },
                 {
-                  "title": "Xenox M70",
+                  "id":6, "title": "Xenox M70",
                   "description": "mobile x-ray system",
                   "image": "/images/products/M70.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Xenox M80",
+                  "id":7, "title": "Xenox M80",
                   "description": "mobile x-ray system",
                   "image": "/images/products/roentgensystem-xenox-m80-front.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Xenox M90",
+                  "id":8, "title": "Xenox M90",
                   "description": "mobile x-ray system",
                   "image": "/images/products/M90-2.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Xenox RAD 400",
+                  "id":9, "title": "Xenox RAD 400",
                   "description": "radiography system",
                   "image": "/images/products/Radiography-Xenox-RAD-400.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Xenox DR500",
+                  "id":10, "title": "Xenox DR500",
                   "description": "digital radiography system",
                   "image": "/images/products/Radiography-Xenox-DR-500.webp",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Xenox M100 Plus",
+                  "id":11, "title": "Xenox M100 Plus",
                   "description": "motor-driven mobile DR x-ray system",
                   "image": "/images/products/radiography-xenox-m100-plus.png",
                   "link": "/service-details/",
                   "category":"radiography"
                 },
                 {
-                  "title": "Sonos 10",
+                  "id":12, "title": "Sonos 10",
                   "description": "diagnostic ultrasound system",
                   "image": "/images/products/Ultrasound-sonos-10.webp",
                   "link": "/service-details/",
                   "category":"ultrasound"
                 },
                 {
-                  "title": "Sonos 12",
+                  "id":13, "title": "Sonos 12",
                   "description": "diagnostic ultrasound system",
                   "image": "/images/products/Ultrasound-sonos-12.webp",
                   "link": "/service-details/",
@@ -98,35 +98,35 @@
                 },
 
                 {
-                  "title": "Xenox C100",
+                  "id":14, "title": "Xenox C100",
                   "description": "mobile c-arm",
                   "image": "/images/products/Mobile_C-arm-Xenox-C100-1.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
-                  "title": "Xenox C200",
+                  "id":15, "title": "Xenox C200",
                   "description": "mobile c-arm",
                   "image": "/images/products/Mobile_C-arm-xenox-c200.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
-                  "title": "Xenox C400",
+                  "id":16, "title": "Xenox C400",
                   "description": "mobile c-arm",
                   "image": "/images/products/Mobile_Carm-Xonox-C400.webp",
                   "link": "/service-details/",
                   "category":"mobile-c-arm"
                 },
                 {
-                  "title": "Xenox S100",
+                  "id":17, "title": "Xenox S100",
                   "description": "mammography system",
                   "image": "/images/products/Mammo-Xenox-S100.webp",
                   "link": "/service-details/",
                   "category":"mammography"
                 },
                 {
-                  "title": "Xenox S200",
+                  "id":18, "title": "Xenox S200",
                   "description": "full-field digital mammography system",
                   "image": "/images/products/Mammo-Xenox-S200T.webp",
                   "link": "/service-details/",
@@ -200,14 +200,14 @@
     "name":"OR Solutions",
     "prodcuts":[
       {
-          "title": "Lumax 25",
+          "id":19, "title": "Lumax 25",
           "description": "surgical LED light",
           "image":"/images/products/Lumax-25.png",
           "link": "/service-details/",
           "category":"surgical-light"
       },
       {
-          "title": "Lumax 3 & 5",
+          "id":20, "title": "Lumax 3 & 5",
           "description": "Surgical LED light",
           "image": "/images/products/Lumax-3-5.webp",
           "link": "/service-details/",
@@ -215,7 +215,7 @@
 
       },
       {
-          "title": "Onex 101",
+          "id":21, "title": "Onex 101",
           "description": "manual surgery table",
           "image": "/images/products/onex-101.webp",
           "link": "/service-details/",
@@ -223,49 +223,49 @@
 
       },
       {
-          "title": "Onex 102",
+          "id":22, "title": "Onex 102",
           "description": "electro-hydraulic surgery table",
           "image": "/images/products/onex-102.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
-          "title": "Onex 201",
+          "id":23, "title": "Onex 201",
           "description": "manual surgery table",
           "image": "/images/products/Onex-201.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
-          "title": "Onex 202",
+          "id":24, "title": "Onex 202",
           "description": "electro-hydraulic surgery table",
           "image": "/images/products/Onex-202.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
-          "title": "Onex 203",
+          "id":25, "title": "Onex 203",
           "description": "electro-hydraulic surgery table",
           "image": "/images/products/Onex-203.webp",
           "link": "/service-details/",
           "category":"surgical-table"
       },
       {
-          "title": "Avacs 50",
+          "id":26, "title": "Avacs 50",
           "description": "anesthesia unit",
           "image": "/images/products/avacs-50.webp",
           "link": "/service-details/",
           "category":"anesthesia-unit"
       },
       {
-          "title": "Ecut 400S",
+          "id":27, "title": "Ecut 400S",
           "description": "electrosurgical unit",
           "image": "/images/products/ECUT-400s.webp",
           "link": "/service-details/",
           "category":"esu"
       },
       {
-          "title": "Ecut 400S Plus",
+          "id":28, "title": "Ecut 400S Plus",
           "description": "electrosurgical unit",
           "image": "/images/products/ecut-400S-Plus.webp",
           "link": "/service-details/",
@@ -317,7 +317,7 @@
   "name":"Patient Care",
   "prodcuts":[
     {
-        "title": "Macs 10",
+        "id":29, "title": "Macs 10",
         "description": "multi parameter patient monitor",
         "image":"/images/products/patientenmonitor-marcs-10-left-3.webp",
         "link": "/service-details/",
@@ -325,49 +325,49 @@
         
     },
     {
-        "title": "Macs 20",
+        "id":30, "title": "Macs 20",
         "description": "multi parameter patient monitor",
         "image": "/images/products/macs-20.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
-        "title": "Macs 30",
+        "id":31, "title": "Macs 30",
         "description": "multi parameter patient monitor",
         "image": "/images/products/macs-30.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
-        "title": "Macs 50",
+        "id":32, "title": "Macs 50",
         "description": "modular patient monitor",
         "image": "/images/products/macs50.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
-        "title": "PC-Macs Series",
+        "id":33, "title": "PC-Macs Series",
         "description": "central monitoring - Macs series",
         "image": "/images/products/pc-macs-serie.webp",
         "link": "/service-details/",
         "category":"patient-monitor"
     },
     {
-        "title": "IPN 56",
+        "id":34, "title": "IPN 56",
         "description": "infusion pump",
         "image": "/images/products/ipn-56.webp",
         "link": "/service-details/",
         "category":"medical-pump"
     },
     {
-        "title": "SPN 58",
+        "id":35, "title": "SPN 58",
         "description": "syringe pump",
         "image": "/images/products/spn-58.webp",
         "link": "/service-details/",
         "category":"medical-pump"
     },
     {
-        "title": "Vento 62",
+        "id":36, "title": "Vento 62",
         "description": "ventilator",
         "image": "/images/products/vento-62.webp",
         "link": "/service-details/",

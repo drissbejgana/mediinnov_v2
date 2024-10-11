@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-type Product = {
+export type Product = {
     id: number;
     category: string;
     image: string;
@@ -24,7 +24,7 @@ export default function Products({ id, category }: Props) {
         async function getProducts() {
             const response = await fetch('/api/products');
             const data = await response.json();
-            const filteredProducts = data.filter((item: any) => item.id === id)[0]?.prodcuts || [];
+            const filteredProducts = data.find((item: any) => item.id === id)?.prodcuts || [];
             let filteredProductsbycat=filteredProducts
 
             if(category!=''){
@@ -47,7 +47,7 @@ export default function Products({ id, category }: Props) {
              key={product.id}
              className="bg-white border rounded-md shadow-lg product-item"
            >
-             <Link href="/service-details">
+             <Link href={`/service-details?id=${product.id}&category=${id}`}>
              <Image
                  alt={product.title}
                  title={product.title}

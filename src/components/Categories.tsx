@@ -57,7 +57,7 @@ const Categories = () => {
       async function getProducts() {
           const response = await fetch('/api/products');
           const data = await response.json();
-          const filteredProducts = data.filter((item: any) => item.name === category)[0]?.categories || [];
+          const filteredProducts = data.find((item: any) => item.name === category)?.categories || [];
           setproducts(filteredProducts)
       }
 

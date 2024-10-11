@@ -1,45 +1,68 @@
 'use client'
 import ContactComponent from "@/components/contactComponent";
+import { Product } from "@/components/products";
+import { url } from "inspector";
 import Image from "next/image";
-import { useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
-
-// type Props={
-//   name:"",
-//   image:""
-// }
 
 
 export default function page() {
 
-
     const [show,setShow]=useState(false)
+
+     const searchParams = useSearchParams()
+       
+     const id = searchParams.get('id') || 0
+     const category = searchParams.get('category')
+     const [product, setProduct] = useState<Product>();
+         
+     useEffect(()=>{
+        async function getProducts() {
+            const response = await fetch('/api/products');
+            const data = await response.json();
+            console.log(data)
+            const filteredProducts = await data.find((item: any) => item.id == category)?.prodcuts || [];
+            
+             const pro = filteredProducts.find((item: Product) => item.id==id);
+              
+
+            setProduct(pro)
+          
+        }
+
+        getProducts();
+         
+     },[id,category])
+    
+
   return (
 <>
-        <div className="costum-bg w-full bg-[url('/images/products/mri_marcom-0.35T.webp')] bg-fixed bg-top hidden md:block relative h-full md:h-dvh">
+        <div style={{backgroundImage:`url(${product?.image})`}} className={`costum-bg w-full bg-fixed bg-cover bg-center  hidden md:block relative h-full md:h-dvh`}>
 
         
              <div className="w-full relative z-1 mx-auto grid grid-cols-1 place-content-center   h-full ">
                   <div className="md:pl-20 ml-24">
-                  <h1 className=' fnt text-white text-lg sm:text-xl md:text-3xl lg:text-5xl '>Marcom 0.35T</h1>
-                  <p className='fnt !text-white text-lg sm:text-xl'>permanent magnet MRI scanner</p>
+                  <h1 className=' fnt text-white text-lg sm:text-xl md:text-3xl lg:text-5xl '>{product?.title}</h1>
+                  <p className='fnt !text-white text-lg sm:text-xl'>{product?.description}</p>
                   </div>
              </div>
         </div>
         <div className="block mt-32 md:hidden ">
         <Image
-                    className="relative w-full "
-                    src={'/images/products/mri_marcom-0.35T.webp'}
-                    alt="Cmri_marcom-0.35T"
-                    width={500}
-                    height={400}
-                    priority
+               className="relative w-full "
+               src={product?.image || ''}
+               alt="Cmri_marcom-0.35T"
+               width={500}
+               height={400}
+               priority
                     />
       </div>
     <div className="grid py-5 md:w-8/12 mx-auto  grid-cols-1 md:grid-cols-3 gap-4 ">
             <div className="px-8 col-span-2">
                   <h2 className="text-4xl fnt capitalize py-5  text-gray-800 font-light">
-                    Marcom 0.35T MRI scanner
+                      {product?.title}  
                   </h2>
                   <p className="text-base  text-[#7A7A7A]  mb2">
                    Marcom 0.35T is an open 0.35T permanent magnet MRI scanner which supplies fast imaging and high-quality images and provides rich preset scan protocols as well as advanced applications.
@@ -108,11 +131,11 @@ export default function page() {
                 </p>
 
                 <div className="p-4 w-full border rounded-lg md:p-6 dark:bg-gray-800">
-            <h2 onClick={()=>setShow(!show)} className="my-4 text-base  text-[#9F1C23] font-bold flex cursor-pointer  font-medium dark:text-white"><svg className="w-6 mr-2 h-6 text-[#9F1C23] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                    <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4.243a1 1 0 1 0-2 0V11H7.757a1 1 0 1 0 0 2H11v3.243a1 1 0 1 0 2 0V13h3.243a1 1 0 1 0 0-2H13V7.757Z" clip-rule="evenodd"/>
-                    </svg>
-               Specifications
-            </h2>
+                <h2 onClick={()=>setShow(!show)} className="my-4 text-base  text-[#9F1C23] font-bold flex cursor-pointer  font-medium dark:text-white"><svg className="w-6 mr-2 h-6 text-[#9F1C23] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Zm11-4.243a1 1 0 1 0-2 0V11H7.757a1 1 0 1 0 0 2H11v3.243a1 1 0 1 0 2 0V13h3.243a1 1 0 1 0 0-2H13V7.757Z" clip-rule="evenodd"/>
+                        </svg>
+                Specifications
+                </h2>
                {
                 show &&  <ul className="">
                 <li className="text-sm mb-2">Permanent magnet with automatic constant temperature system</li>

@@ -26,7 +26,7 @@ export default function Page({ params }: { params: { id: string } }) {
                 <div className='flex justify-between items-center flex-wrap  md:flex-nowrap'>
                     <Category category={params.id} id={1} />
 
-                      <div className='w-full mt-5'>
+                      <div className='w-full my-5'>
                           <h3 className="text-base  ">  We'll ensure you always get the best solutions :<Link className=" text-white !text-[#f72a75] text-base font-bold  ml-1" href={'/contact'}> CONTACT US</Link></h3> 
                       </div>
                 </div>

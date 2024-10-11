@@ -16,10 +16,10 @@ export default function Category({ id, category }: Props) {
         async function getProducts() {
             const response = await fetch('/api/products');
             const data = await response.json();
-            const filteredProducts = data.filter((item: any) => item.id === id)[0]?.categories || {};
+            const filteredProducts = data.find((item: any) => item.id === id)?.categories || {};
             let filteredProductsbycat=filteredProducts
 
-            filteredProductsbycat = filteredProducts.filter((item: any) => item.id==category) || {};
+            filteredProductsbycat = filteredProducts.find((item: any) => item.id==category) || {};
             setCate(filteredProductsbycat[0])
 
             setIsLoading(false);
