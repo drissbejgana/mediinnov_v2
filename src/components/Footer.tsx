@@ -10,7 +10,7 @@ export default function Footer() {
         <p className="text-center sm:w-8/12 mx-auto font-bold text-white text-md sm:text-2xl py-11">
         At the same time editor, distributor and integrator, MEDI'INNOV is the only group in Morocco to offer a fully integrated global solution covering all the needs of an imaging center or service.
         </p>
-        <Link className="focus:outline-none mb-5  text-[17px] text-[#bb1f22] bg-[#D2EDF6]  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/">
+        <Link className="focus:outline-none mb-5  text-[17px] text-[#bb1f22] bg-[#D2EDF6] text-center  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/">
              Together, we make it possible
         </Link>
       </div>
