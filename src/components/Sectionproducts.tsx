@@ -12,10 +12,7 @@ type Product = {
     description: string;
 };
 
-type Props = {
-    id: number;
-    category: string;
-};
+
 
 export default function Sectionroducts() {
     const [isLoading, setIsLoading] = useState(true);

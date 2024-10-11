@@ -124,6 +124,18 @@ margin-left: 10px;
 
 
 }
+.op{
+  animation: op 0.2s linear;
+  position: fixed;
+}
+@keyframes op {
+  0%{
+transform:translateY(-100%);
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
 
 .items{
   border:solid 1px #ECEEF3;
