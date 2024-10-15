@@ -1,6 +1,8 @@
 import ContactComponent from '@/components/contactComponent'
+import { useTranslations } from 'next-intl'
 
 export default function Page() {
+    const t=useTranslations('Contact')
   return (
         <div className="bg-cover py-14 bg-fixed ">
               
@@ -8,25 +10,25 @@ export default function Page() {
 
                     <div className="h-full">
                         <div className='items h-full'>
-                            <h1 className='text-xl text-center font-bold '>Address line</h1>
+                            <h1 className='text-xl text-center font-bold '>{t('addressheading')}</h1>
                             <p className='text-base text-center px-5 py-2 '>
-                                131 BOULEVARD ANFA <br /> RESIDENCE AZUR <br /> BUREAU N 11 B <br />
-                                20000,Casablanca,Maroc
+                            {t('line1')} <br /> {t('line2')} <br /> {t('line3')} <br />
+                            {t('city')}
                             </p>
                         </div>
 
                         <div className='items'>
-                            <h1 className='text-xl text-center font-bold '>Phone Number</h1>
+                            <h1 className='text-xl text-center font-bold '>{t('phoneNumberheading')}</h1>
                             <p className='text-base text-center px-5 py-2 '>
-                             (+212) 673 142 929
+                            {t('number')}
                             </p>
                         </div>
 
                         <div className='items'>
-                            <h1 className='text-xl text-center font-bold '> Opening Hours </h1>
+                            <h1 className='text-xl text-center font-bold '> {t('openingHours')}</h1>
                             <p className='text-base text-center px-5 py-2 '>
-                            Moday - Friday <br />
-                            09:00 AM - 05:00 PM
+                            {t('days')} <br />
+                            {t('time')}
                             </p>
                         </div>
 

@@ -2,8 +2,10 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import Why from '@/components/Why'
+import { useTranslations } from 'next-intl'
 
 export default function Page() {
+  const t=useTranslations('About')
   return (
     <div>
       <div className="grid grid-cols-1 gap-5 lg:gap-8 my-12 place-items-center md:grid-cols-2 lg:mx-20 xl:mx-52">
@@ -34,57 +36,57 @@ export default function Page() {
           </div>
         </div>
         <div data-aos="fade-left" className="p-6 md:p-0">
-          <h2 className="mt-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center md:text-left">Support for imaging centers.</h2>
+          <h2 className="mt-10 text-2xl md:text-3xl lg:text-4xl font-bold text-center md:text-left">{t('title')}</h2>
           <p className="mt-9 text-sm md:text-base  text-center md:text-left">
-            MEDIINOV is a company specializing in the marketing of medical devices and equipments, for the public and private sectors. At the same time editor, distributor and integrator, MEDIINNOV is the only group in Morocco to offer a fully integrated global solution covering all the needs of an imaging center or service:
+            {t('description')}
           </p>
           <ul className="mt-12 list-none space-y-3 text-sm md:text-base text-center md:text-left">
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Radiology room
+              {t('Radiologyroom')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Woman imagery
+              {t('Womanimagery')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Dental imaging
+              {t('Dentalimaging')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Ultrasound
+                {t('Ultrasound')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Office management
+                {t('Officemanagement')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Medical follow-up and interpretation
+              {t('Medicalfollow-upandinterpretation')}
             </li>
             <li className="flex items-center justify-center md:justify-start">
               <svg className="w-6 h-6 text-[#e71d36] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 11.917 9.724 16.5 19 7.5" />
               </svg>
-              Diffusion
+              {t('Diffusion')}
             </li>
           </ul>
           <div className="mx-5 my-10 flex justify-center md:justify-start">
             <Link href={'/contact'} className="search-btn mx-4" >
-              Contact
+              {t('contact')}
             </Link>
           </div>
         </div>

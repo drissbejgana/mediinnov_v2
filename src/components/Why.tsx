@@ -1,11 +1,12 @@
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
 import React from 'react'
 
 export default function Why() {
-
+           const t=useTranslations('Why')
     return (
         <section className="bg-[#303030] bg-cover mt-14 p-14 ">
-            <h3 className="text-5xl   titre !text-white w-full text-center  mt-4"> Why Choose Us</h3>
+            <h3 className="text-5xl   titre !text-white w-full text-center  mt-4">{t('title')}</h3>
             <div data-aos="fade-up" className="grid grid-cols-1 mx-auto  lg:w-9/12  place-content-center place-items-center gap-4 my-28 md:grid-cols-2 lg:grid-cols-4 ">
 
                 <div className="w-2/3 group ">
@@ -56,8 +57,7 @@ export default function Why() {
                         </svg>
                     </div>
 
-                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">  High Quality
-                    Products</h3>
+                    <h3 className="text-2xl text-[#FFF]  font-bold my-5"> {t('hqp')}</h3>
 
                 </div>
 
@@ -83,8 +83,7 @@ export default function Why() {
                     
                     </div>
 
-                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">  Fast Working
-                    Process</h3>
+                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">{t('fwp')}</h3>
 
                 </div>
 
@@ -127,8 +126,7 @@ export default function Why() {
     </svg>
                     </div>
 
-                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">  24/7 Customer
-                    Support</h3>
+                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">{t('cs')}</h3>
 
                 </div>
 
@@ -267,13 +265,12 @@ export default function Why() {
                     </svg>
                     </div>
 
-                    <h3 className="text-2xl text-[#FFF]  font-bold my-5">  We have
-                    Expert Team</h3>
+                    <h3 className="text-2xl text-[#FFF]  font-bold my-5"> {t('et')}</h3>
 
                 </div>
             </div>
                 <div className="flex flex-wrap justify-center items-center">
-                        <h3 className="text-xl text-[#A9B7D1]">Contact us for any inquiries : </h3> <Link className=" text-white hover:text-[#f72a75] text-xl  font-light ml-1" href={'/contact'}> CONTACT US</Link>
+                        <h3 className="text-xl text-[#A9B7D1]">{t('desc')} </h3> <Link className=" text-white hover:text-[#f72a75] text-xl  font-light ml-1" href={'/contact'}> {t('contact')}</Link>
                 </div>
         </section>
 

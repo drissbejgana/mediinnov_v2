@@ -93,5 +93,48 @@
     "patientCare": "Soins aux patients",
     "orSolutions": "Solutions de bloc opératoire",
     "medicalImaging": "Imagerie médicale"
+  },
+  "About":{
+    "title":"Soutien aux centres d'imagerie.",
+    "description":"MEDIINOV est une société spécialisée dans la commercialisation de dispositifs et équipements médicaux, à destination des secteurs public et privé. A la fois éditeur, distributeur et intégrateur, MEDIINNOV est le seul groupe au Maroc à proposer une solution globale totalement intégrée couvrant l’ensemble des besoins d’un centre ou d’un service d’imagerie :",
+    "Radiologyroom":"Salle de radiologie",
+    "Womanimagery": "Imagerie de la femme",
+    "Dentalimaging":"Imagerie dentaire",
+    "Ultrasound": "Ultrason",
+    "Officemanagement": "Gestion de bureau",
+    "Medicalfollow-upandinterpretation": "Suivi médical et interprétation",
+    "Diffusion":"Diffusion",
+    "contact":"CONTACT"
+  },
+  "Why":{
+    "title":"Pourquoi nous choisir",
+    "hqp":"Produits de haute qualité",
+    "fwp":"Processus de travail rapide",
+    "cs":"24/7 Assistance clientèle",
+    "et":"Nous avons une équipe d'experts",
+    "desc":"Contactez-nous pour toute demande de renseignements :", 
+    "contact":"CONTACTEZ-NOUS"
+  },
+  "Contact":{
+      "addressheading": "Adresse",
+      "line1": "131 BOULEVARD ANFA",
+      "line2": "RESIDENCE AZUR",
+      "line3": "BUREAU N 11 B",
+      "city": "20000, Casablanca, Maroc",
+      "phoneNumberheading": "Numéro de téléphone",
+      "number": "(+212) 673 142 929",
+      "openingHours": "Horaires d'ouverture",
+      "days": "Lundi - Vendredi",
+      "time": "09:00 AM - 05:00 PM",
+      "form_heading": "Envoyez-nous un message :",
+      "form_name_placeholder": "Entrez votre nom",
+      "form_email_placeholder": "Entrez votre e-mail",
+      "form_phone_placeholder": "Entrez votre numéro",
+      "form_website_placeholder": "Entrez votre site web",
+      "form_message_placeholder": "Tapez votre commentaire",
+      "form_button_label": "ENVOYER LE MESSAGE"
+ 
+    
   }
+  
 }

@@ -93,5 +93,48 @@
     "patientCare": "Patient Care",
     "orSolutions": "OR Solutions",
     "medicalImaging": "Medical Imaging"
+  },
+  "About":{
+    "title":"Support for imaging centers.",
+    "description":"MEDIINOV is a company specializing in the marketing of medical devices and equipments, for the public and private sectors. At the same time editor, distributor and integrator, MEDIINNOV is the only group in Morocco to offer a fully integrated global solution covering all the needs of an imaging center or service:",
+    "Radiologyroom":"Radiology room",
+    "Womanimagery": "Woman imagery",
+    "Dentalimaging":"Dental imaging",
+    "Ultrasound": "Ultrasound",
+    "Officemanagement": "Office management",
+    "Medicalfollow-upandinterpretation": "Medical follow-up and interpretation",
+    "Diffusion":"Diffusion",
+    "contact":"CONTACT"
+  },
+  "Why":{
+    "title":"Why Choose Us",
+    "hqp":"High Quality Products",
+    "fwp":"Fast Working Process",
+    "cs":"24/7 Customer Support",
+    "et":"We have Expert Team",
+    "desc":"Contact us for any inquiries :", 
+    "contact":"CONTACT US"
+  },
+  "Contact":{
+      "addressheading": "Address",
+      "line1": "131 BOULEVARD ANFA",
+      "line2": "RESIDENCE AZUR",
+      "line3": "BUREAU N 11 B",
+      "city": "20000, Casablanca, Morocco",
+      "phoneNumberheading": "Phone Number",
+      "number": "(+212) 673 142 929",
+      "openingHours": "Opening Hours",
+      "days": "Monday - Friday",
+      "time": "09:00 AM - 05:00 PM",
+      "form_heading": "Send us a Message :",
+      "form_name_placeholder": "Enter your Name",
+      "form_email_placeholder": "Enter your mail",
+      "form_phone_placeholder": "Enter your Number",
+      "form_website_placeholder": "Enter your Website",
+      "form_message_placeholder": "Type Your Comment",
+      "form_button_label": "SEND MESSAGE"
+
+      
+      
   }
 }
