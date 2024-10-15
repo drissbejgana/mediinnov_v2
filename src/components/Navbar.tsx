@@ -1,4 +1,5 @@
 'use client'
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,7 +9,7 @@ export default function Navbar() {
     const [header, setHeader] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
     const pathname = usePathname();
-
+    const t= useTranslations('Navbar')
     useEffect(() => {
         const scrollHeader = () => {
             if (window.scrollY >= 20) {
@@ -43,10 +44,10 @@ export default function Navbar() {
                 <div className={`items-center justify-between ${menuOpen ? 'block' : 'hidden'} w-full md:flex md:w-auto md:order-1`} id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 rounded-lg bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <Link href="/" className={`block ${pathname === '/' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030]  rounded md:bg-transparent md:p-0 md:dark:text-blue-500`}>HOME</Link>
+                            <Link href="/" className={`block ${pathname === '/' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030]  rounded md:bg-transparent md:p-0 md:dark:text-blue-500`}>{t('home')}</Link>
                         </li>
                         <li className="group relative">
-                            <Link href="#" className={`block ${pathname === '/departments' ? '!text-[#E00729]' : ''} py-4 flex px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>PRODUCTS
+                            <Link href="#" className={`block ${pathname === '/departments' ? '!text-[#E00729]' : ''} py-4 flex px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>{t('products')}
 
                                 <svg className="w-3 h-3 text-gray-800 dark:text-white ml-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7 7V5" />
@@ -56,62 +57,62 @@ export default function Navbar() {
 
                             <ul className="hidden group-hover:block absolute left-0 top-full w-56 bg-white text-sm font-semibold text-gray-700 dark:text-gray-400 dark:bg-gray-800">
                                 <li id="medical-li" className="relative">
-                                    <Link href={'/medical-imaging'}  className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Medical Imaging</Link>
+                                    <Link href={'/medical-imaging'}  className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('medicalImaging')}</Link>
                                     <ul id="medical-list" className="hidden  absolute left-full top-2 w-56 bg-white text-sm font-semibold text-gray-700 dark:text-gray-400 dark:bg-gray-800">
                                         <li>
-                                            <Link href={'/medical-imaging/mri'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">MRI</Link>
+                                            <Link href={'/medical-imaging/mri'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('mri')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/ct'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">CT</Link>
+                                            <Link href={'/medical-imaging/ct'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('ct')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/fluoroscopy'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Fluoroscopy</Link>
+                                            <Link href={'/medical-imaging/fluoroscopy'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('fluoroscopy')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/radiography'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Radiography</Link>
+                                            <Link href={'/medical-imaging/radiography'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('radiography')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/mammography'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Mammography</Link>
+                                            <Link href={'/medical-imaging/mammography'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('mammography')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/mobile-c-arm'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Mobile C-arm</Link>
+                                            <Link href={'/medical-imaging/mobile-c-arm'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('mobileCArm')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/medical-imaging/ultrasound'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Ultrasound</Link>
+                                            <Link href={'/medical-imaging/ultrasound'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('ultrasound')}</Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li id="solutions-li">
-                                    <Link href={'/or-solutions'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">OR Solutions</Link>
+                                    <Link href={'/or-solutions'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('orSolutions')}</Link>
                                     <ul id="solutions-list" className="hidden  absolute left-full top-11 w-56 bg-white text-sm font-semibold text-gray-700 dark:text-gray-400 dark:bg-gray-800">
                                         <li>
-                                            <Link href={'/or-solutions/surgical-light'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Surgical Light</Link>
+                                            <Link href={'/or-solutions/surgical-light'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('surgicalLight')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/or-solutions/surgical-table'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Surgical Table</Link>
+                                            <Link href={'/or-solutions/surgical-table'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('surgicalTable')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/or-solutions/anesthesia-unit'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Anesthesia Unit</Link>
+                                            <Link href={'/or-solutions/anesthesia-unit'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('anesthesiaUnit')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/or-solutions/esu'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">ESU</Link>
+                                            <Link href={'/or-solutions/esu'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('esu')}</Link>
                                         </li>
                                     </ul>
                               
                               
                                 </li>
                                 <li id="patient-li">
-                                    <Link href={'/patient-care'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Patient Care</Link>
+                                    <Link href={'/patient-care'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('patientCare')}</Link>
                                    
                                     <ul id="patient-list" className="hidden  absolute left-full top-20 w-56 bg-white text-sm font-semibold text-gray-700 dark:text-gray-400 dark:bg-gray-800">
                                         <li>
-                                            <Link href={'/patient-care/patient-monitor'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Patient Monitor</Link>
+                                            <Link href={'/patient-care/patient-monitor'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('patientMonitor')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/patient-care/medical-pump'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Medical Pump</Link>
+                                            <Link href={'/patient-care/medical-pump'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('medicalPump')}</Link>
                                         </li>
                                         <li>
-                                            <Link href={'/patient-care/ventilator'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">Ventilator</Link>
+                                            <Link href={'/patient-care/ventilator'} className="block px-4 py-4 hover:bg-[#E00729]/50 dark:hover:bg-gray-600 dark:hover:text-[#303030]">{t('ventilator')}</Link>
                                         </li>
                                     </ul>
                                
@@ -120,15 +121,15 @@ export default function Navbar() {
                             </ul>
                         </li>
                         <li>
-                            <Link href="/about" className={`block ${pathname === '/about' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>ABOUT US</Link>
+                            <Link href="/about" className={`block ${pathname === '/about' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>{t('aboutUs')}</Link>
                         </li>
                         <li>
-                            <Link href="/contact" className={`block ${pathname === '/contact' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>CONTACT</Link>
+                            <Link href="/contact" className={`block ${pathname === '/contact' ? '!text-[#E00729]' : ''} py-4 px-3 text-sm font-semibold text-[#303030] hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#E00729] md:p-0 md:dark:hover:text-blue-500 dark:text-[#303030] dark:hover:bg-gray-700 dark:hover:text-[#303030] md:dark:hover:bg-transparent dark:border-gray-700`}>{t('contact')}</Link>
                         </li>
                     </ul>
                 </div>
                 <div className="flex md:order-2 mx-auto lg:mx-10 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <Link href={'/#start'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">Get started</Link>
+                <Link href={'/#start'} className="text-white hidden sm:block text-[17px] bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg  px-8 py-3 text-center">{t('getStarted')}</Link>
                 </div>
                 <button onClick={() => setMenuOpen(!menuOpen)} type="button" className="absolute top-5 right-5 inline-flex items-center p-2 w-10 h-10 justify-center text-sm font-semibold text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                     <span className="sr-only">Open main menu</span>

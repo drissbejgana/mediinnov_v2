@@ -1,8 +1,10 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
 
 const NewsLetter = () => {
+  const t=useTranslations('Products')
  const news=[
  {
     id:1,
@@ -23,7 +25,7 @@ const NewsLetter = () => {
   return (
     <section className="bg-primary-400 mx-5 xl:py-12 py-8">
       <div className="container mx-auto">
-      <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">NewsLetter</h2>
+      <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">  {t('newsletter')}</h2>
 
         <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-6 mt-8">
 
@@ -100,7 +102,7 @@ const NewsLetter = () => {
         </Link>
          <div className="p-4">
            <Link href={'/'} className="text-white text-sm  mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
-               Read More
+           {t('readmore')}
             <svg
               width="11"
               height="12"

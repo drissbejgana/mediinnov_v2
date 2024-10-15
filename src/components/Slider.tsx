@@ -3,11 +3,12 @@
 
 'use client'
 import { initFlowbite } from "flowbite";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect} from "react";
 
 export default function Slider() {
-
+    const t=useTranslations('Slider')
 
    useEffect(()=>{
     initFlowbite()
@@ -30,8 +31,8 @@ export default function Slider() {
 
             />
             <div className=" w-1/2  md:md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">Salle de radiologie</h3>
-                <p className="  font-semibold md:mt-5 text-sm md:text-md">Découvrez nos équipements modernes de radiologie, offrant des résultats précis et un confort optimal pour tous les patients.</p>
+                <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('Sallederadiologie')}</h3>
+                <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('Sallederadiologiedescription')}</p>
             </div>
         </div>
 
@@ -45,8 +46,8 @@ export default function Slider() {
             className="w-1/2"
             />
             <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Imagerie de la femme</h3>
-                <p className="text-sm md:text-md font-semibold md:mt-5">Spécialisée dans les soins pour la femme, notre clinique propose des examens d’imagerie personnalisés pour le suivi gynécologique et obstétrical.</p>
+                <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('Imageriefemme')}</h3>
+                <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('Imageriefemmedescription')}</p>
             </div>
         </div>
 
@@ -61,8 +62,8 @@ export default function Slider() {
             className="w-1/2"
             />
             <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Imagerie dentaire</h3>
-                <p className="text-sm md:text-md font-semibold md:mt-5">Nos radiographies dentaires permettent un diagnostic précis, essentiel pour des soins bucco-dentaires de qualité.</p>
+                <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('Imageriedentaire')}</h3>
+                <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('Imageriedentairedescription')}</p>
             </div>
         </div>
 
@@ -77,8 +78,8 @@ export default function Slider() {
             className="w-1/2"
             />
             <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Échographie</h3>
-                <p className="text-sm md:text-md font-semibold md:mt-5">Notre service d’échographie utilise la dernière technologie pour des examens sûrs, rapides et fiables.</p>
+              <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('echographie')}</h3>
+                <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('echographiedescription')}</p>
             </div>
         </div>
 
@@ -93,8 +94,8 @@ export default function Slider() {
             className="w-1/2"
             />
             <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Gestion du cabinet</h3>
-                <p className="text-sm md:text-md font-semibold md:mt-5">Notre système de gestion du cabinet assure une organisation efficace pour un suivi médical sans faille.</p>
+            <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('Gestionducabinet')}</h3>
+            <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('Gestionducabinetdescription')}</p>
             </div>
         </div>
 
@@ -108,8 +109,8 @@ export default function Slider() {
             className="w-1/2"
             />
             <div className=" w-1/2  md:py-8 px-5 text-gray-800 ">
-                <h3 className="text-[#bb1f22] text-xl sm:text-2xl font-bold">Suivi médical et interprétation</h3>
-                <p className="text-sm md:text-md font-semibold md:mt-5">Notre équipe médicale vous accompagne pour une interprétation claire des résultats et un suivi personnalisé.</p>
+            <h3 className="text-[#bb1f22]  text-xl sm:text-2xl font-bold">{t('Suivienterprétation')}</h3>
+            <p className="  font-semibold md:mt-5 text-sm md:text-md">{t('Suivienterprétationdescription')}</p>
             </div>
         </div>
 

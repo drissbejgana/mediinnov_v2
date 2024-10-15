@@ -1,0 +1,97 @@
+{
+  "Header": {
+    "contact": "Contact Us",
+    "search": "Search"
+  },
+  "HeroSection": {
+    "title": "Hope in Health:",
+    "subtitle": "Medical Devices for Healthcare Turnkey Projects",
+    "text": "We deliver customized solutions that meet your project’s budget, timeline, and technical needs, all focused on improving patient care.",
+    "about": "About us"
+  },
+  "Navbar": {
+    "home": "HOME",
+    "products": "PRODUCTS",
+    "medicalImaging": "Medical Imaging",
+    "mri": "MRI",
+    "ct": "CT",
+    "fluoroscopy": "Fluoroscopy",
+    "radiography": "Radiography",
+    "mammography": "Mammography",
+    "mobileCArm": "Mobile C-arm",
+    "ultrasound": "Ultrasound",
+    "orSolutions": "OR Solutions",
+    "surgicalLight": "Surgical Light",
+    "surgicalTable": "Surgical Table",
+    "anesthesiaUnit": "Anesthesia Unit",
+    "esu": "ESU",
+    "patientCare": "Patient Care",
+    "patientMonitor": "Patient Monitor",
+    "medicalPump": "Medical Pump",
+    "ventilator": "Ventilator",
+    "aboutUs": "ABOUT US",
+    "contact": "CONTACT",
+    "getStarted": "Get started"
+  },
+  "ExtraHeader": {
+    "at": "At",
+    "description": "we believe everyone deserves access to quality healthcare, and we’re here to make it happen.",
+    "contactButton": "Contact us now!",
+    "footerNote": "*Together, we make it possible"
+  },
+  "SolutionsSection": {
+    "title": "OUR SOLUTIONS",
+    "MedicalImaging": "Medical Imaging",
+    "MedicalImagingdescription": "MEDI'INNOV ultrasound systems, magnetic resonance technology and x-ray devices provide a comprehensive portfolio of complete hard & software solutions tailored for global imaging needs.",
+    "OrSolutions": "OR Solutions",
+    "OrSolutionsdescription": "OR Solutions from SternMed, including anesthesia units, surgical tables and surgical lights, are designed to support clinicians worldwide to provide health care for their patients.",
+    "PatientCare": "Patient Care",
+    "PatientCaredescription": "MEDI'INNOV provides patient care devices like patient monitors, infusion and syringe pumps and medical ventilators, to support clinicians in giving exceptional patient care to their patients."
+  },
+  "Home": {
+    "Accompagnementdecentres": "Support for centers",
+    "imagerie": "in imaging.",
+    "desc": "MEDIINOV specializes in the commercialization of medical devices and equipment for both the public and private sectors. As a publisher, distributor, and integrator, MEDIINNOV is the only group in Morocco to offer a fully integrated global solution that meets all the needs of an imaging center or service:",
+    "YofExperience": "Years of Experience",
+    "VisitorsAnnually": "Visitors Annually",
+    "CustomerSupport": "Customer Support",
+    "Devices": "Devices"
+  },
+  "Products": {
+    "OurMedicalDevices": "Our Medical Devices",
+    "medicalImaging": "Medical Imaging",
+    "orSolutions": "OR Solutions",
+    "patientCare": "Patient Care",
+    "readmore": "Read More",
+    "newsletter": "Newsletter",
+    "justchoose": "Just choose"
+  },
+  "Slider": {
+    "Sallederadiologie": "Radiology Room",
+    "Sallederadiologiedescription": "Discover our modern radiology equipment, offering precise results and optimal comfort for all patients.",
+    "Imageriefemme": "Women’s Imaging",
+    "Imageriefemmedescription": "Specializing in women's care, our clinic offers personalized imaging exams for gynecological and obstetric follow-up.",
+    "Imageriedentaire": "Dental Imaging",
+    "Imageriedentairedescription": "Our dental radiographs provide an accurate diagnosis, essential for quality dental care.",
+    "echographie": "Ultrasound",
+    "echographiedescription": "Our ultrasound service uses the latest technology for safe, quick, and reliable examinations.",
+    "Gestionducabinet": "Dental Imaging",
+    "Gestionducabinetdescription": "Our clinic management system ensures efficient organization for seamless medical follow-up.",
+    "Suivienterprétation": "Medical follow-up and interpretation",
+    "Suivienterprétationdescription": "Our medical team assists you with clear interpretation of results and personalized follow-up."
+  },
+  "Footer": {
+    "talktous": "Talk to us now",
+    "talkdesc": "Have any questions for us? Chat with our team on Facebook or WhatsApp now.",
+    "chatwithus": "Chat with us",
+    "title": "At the same time editor, distributor and integrator, MEDI'INNOV is the only group in Morocco to offer a fully integrated global solution covering all the needs of an imaging center or service.",
+    "together": "Together, we make it possible",
+    "ul": "Useful links",
+    "about": "About us",
+    "contact": "Contact Us",
+    "me": "MEDICAL EQUIPMENT",
+    "patientCare": "Patient Care",
+    "orSolutions": "OR Solutions",
+    "medicalImaging": "Medical Imaging"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "Header": {
+    "contact": "Nous contacter",
+    "search": "Recherche"
+  },
+  "HeroSection": {
+    "title": "L'espoir en santé:",
+    "subtitle": "Dispositifs médicaux pour des projets clés en main en santé",
+    "text": "Nous fournissons des solutions personnalisées qui respectent le budget, le calendrier et les besoins techniques de votre projet, toutes axées sur l'amélioration des soins aux patients.",
+    "about": "À propos de nous"
+  },
+  "Navbar": {
+    "home": "ACCUEIL",
+    "products": "PRODUITS",
+    "medicalImaging": "Imagerie médicale",
+    "mri": "IRM",
+    "ct": "CT",
+    "fluoroscopy": "Fluoroscopie",
+    "radiography": "Radiographie",
+    "mammography": "Mammographie",
+    "mobileCArm": "C-bras mobile",
+    "ultrasound": "Échographie",
+    "orSolutions": "Solutions de bloc opératoire",
+    "surgicalLight": "Lumière chirurgicale",
+    "surgicalTable": "Table chirurgicale",
+    "anesthesiaUnit": "Unité d'anesthésie",
+    "esu": "ESU",
+    "patientCare": "Soins aux patients",
+    "patientMonitor": "Moniteur patient",
+    "medicalPump": "Pompe médicale",
+    "ventilator": "Ventilateur",
+    "aboutUs": "À PROPOS",
+    "contact": "CONTACT",
+    "getStarted": "Commencer"
+  },
+  "ExtraHeader": {
+    "at": "Chez",
+    "description": "nous croyons que tout le monde mérite d'avoir accès à des soins de santé de qualité, et nous sommes ici pour que cela devienne une réalité.",
+    "contactButton": "Contactez-nous maintenant!",
+    "footerNote": "*Ensemble, nous le rendons possible"
+  },
+  "SolutionsSection": {
+    "title": "NOS SOLUTIONS",
+    "MedicalImaging": "Imagerie médicale",
+    "MedicalImagingdescription": "Les systèmes d’échographie, de résonance magnétique et les appareils à rayons X de MEDI'INNOV offrent un portefeuille complet de solutions matérielles et logicielles adaptées aux besoins mondiaux en matière d’imagerie.",
+    "OrSolutions": "Solutions de bloc opératoire",
+    "OrSolutionsdescription": "Les solutions de bloc opératoire de SternMed, y compris les unités d'anesthésie, les tables chirurgicales et les lumières chirurgicales, sont conçues pour aider les cliniciens du monde entier à fournir des soins de santé à leurs patients.",
+    "PatientCare": "Soins aux patients",
+    "PatientCaredescription": "MEDI'INNOV fournit des dispositifs de soins aux patients, comme les moniteurs de patients, les pompes à perfusion et seringues et les ventilateurs médicaux, pour aider les cliniciens à offrir des soins exceptionnels à leurs patients."
+  },
+  "Home": {
+    "Accompagnementdecentres": "Accompagnement des centres",
+    "imagerie": "d'imagerie.",
+    "desc": "MEDIINOV est spécialisée dans la commercialisation des dispositifs et équipements médicaux pour les secteurs public et privé. À la fois éditeur, distributeur et intégrateur, MEDIINNOV est le seul groupe au Maroc à offrir une solution globale totalement intégrée couvrant tous les besoins d'un centre ou service d’imagerie :",
+    "YofExperience": "Années d'expérience",
+    "VisitorsAnnually": "Visiteurs annuels",
+    "CustomerSupport": "Support client",
+    "Devices": "Appareils"
+  },
+  "Products": {
+    "OurMedicalDevices": "Nos dispositifs médicaux",
+    "medicalImaging": "Imagerie médicale",
+    "orSolutions": "Solutions de bloc opératoire",
+    "patientCare": "Soins aux patients",
+    "readmore": "En savoir plus",
+    "newsletter": "Newsletter",
+    "justchoose": "Il suffit de choisir"
+  },
+  "Slider": {
+    "Sallederadiologie": "Salle de radiologie",
+    "Sallederadiologiedescription": "Découvrez nos équipements de radiologie modernes, offrant des résultats précis et un confort optimal pour tous les patients.",
+    "Imageriefemme": "Imagerie de la femme",
+    "Imageriefemmedescription": "Spécialisée dans les soins pour les femmes, notre clinique propose des examens d’imagerie personnalisés pour le suivi gynécologique et obstétrique.",
+    "Imageriedentaire": "Imagerie dentaire",
+    "Imageriedentairedescription": "Nos radiographies dentaires permettent un diagnostic précis, essentiel pour des soins bucco-dentaires de qualité.",
+    "echographie": "Échographie",
+    "echographiedescription": "Notre service d’échographie utilise la dernière technologie pour des examens sûrs, rapides et fiables.",
+    "Gestionducabinet": "Imagerie dentaire",
+    "Gestionducabinetdescription": "Notre système de gestion du cabinet assure une organisation efficace pour un suivi médical sans faille.",
+    "Suivienterprétation": "Suivi médical et interprétation",
+    "Suivienterprétationdescription": "Notre équipe médicale vous accompagne pour une interprétation claire des résultats et un suivi personnalisé."
+  },
+  "Footer": {
+    "talktous": "Parlez-nous maintenant",
+    "talkdesc": "Vous avez des questions ? Discutez avec notre équipe sur Facebook ou WhatsApp maintenant.",
+    "chatwithus": "Discutez avec nous",
+    "title": "À la fois éditeur, distributeur et intégrateur, MEDI'INNOV est le seul groupe au Maroc à offrir une solution globale entièrement intégrée couvrant tous les besoins d'un centre ou service d’imagerie.",
+    "together": "Ensemble, nous le rendons possible",
+    "ul": "Liens utiles",
+    "about": "À propos de nous",
+    "contact": "Nous contacter",
+    "me": "ÉQUIPEMENT MÉDICAL",
+    "patientCare": "Soins aux patients",
+    "orSolutions": "Solutions de bloc opératoire",
+    "medicalImaging": "Imagerie médicale"
+  }
+}

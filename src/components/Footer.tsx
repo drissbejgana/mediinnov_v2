@@ -1,6 +1,8 @@
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Footer() {
+    const t=useTranslations('Footer')
   return (
    
   
@@ -8,10 +10,10 @@ export default function Footer() {
 
       <div className="flex flex-col justify-center items-center">
         <p className="text-center sm:w-8/12 mx-auto font-bold text-white text-md sm:text-2xl py-11">
-        At the same time editor, distributor and integrator, MEDI'INNOV is the only group in Morocco to offer a fully integrated global solution covering all the needs of an imaging center or service.
+      {t('title')}
         </p>
         <Link className="focus:outline-none mb-5  text-[17px] text-[#bb1f22] bg-[#D2EDF6] text-center  focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-[#EEDF7A]" href="/">
-             Together, we make it possible
+         {t('together')}
         </Link>
       </div>
       <hr className="h-px my-8 w-3/4 bg-white mx-auto border-0 dark:bg-gray-700" />
@@ -25,27 +27,27 @@ export default function Footer() {
               </div>
         </div>
         <div>
-            <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">MEDICAL EQUIPMENT</h2>
+            <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">  {t('me')}</h2>
             <ul className="text-[#D2EDF6]dark:text-white font-medium">
                <li className="mb-4 text-[#D2EDF6]">
-                    <a href="#" className="hover:underline">Medical Imaging</a>
+                    <a href="#" className="hover:underline">{t('medicalImaging')}</a>
                 </li>
                 <li className="mb-4 text-[#D2EDF6]">
-                    <a href="#" className="hover:underline">OR Solutions</a>
+                    <a href="#" className="hover:underline">{t('orSolutions')}</a>
                 </li>
                 <li className="mb-4 text-[#D2EDF6]">
-                    <a href="#" className="hover:underline">Patient Care</a>
+                    <a href="#" className="hover:underline">{t('patientCare')}</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">Useful links</h2>
+            <h2 className="mb-6 text-lg font-semibold text-white uppercase dark:text-white">{t('ul')}</h2>
             <ul className="text-[#D2EDF6]dark:text-white font-medium">
                 <li className="mb-4 text-[#D2EDF6]">
-                    <a href="#" className="hover:underline">About Us</a>
+                    <a href="#" className="hover:underline">{t('about')}</a>
                 </li>
                 <li className="mb-4 text-[#D2EDF6]">
-                    <a href="#" className="hover:underline">Contact Us</a>
+                    <a href="#" className="hover:underline">{t('contact')}</a>
                 </li>
 
             </ul>

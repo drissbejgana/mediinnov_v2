@@ -1,4 +1,5 @@
 'use client'
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -19,7 +20,7 @@ type Props = {
 export default function Products({ id, category }: Props) {
     const [isLoading, setIsLoading] = useState(true);
     const [products, setProducts] = useState<Product[]>([]);
-
+    const t=useTranslations('Products')
     useEffect(() => {
         async function getProducts() {
             const response = await fetch('/api/products');
@@ -129,7 +130,7 @@ export default function Products({ id, category }: Props) {
 
          
                 <Link href={'/'} className="text-white text-sm  mt-5 flex items-center justify-center w-full text-[17px] bg-red-700 hover:bg-red-800  font-medium rounded-lg  px-8 py-3 text-center  ">
-                    Read More
+                    {t('readmore')}
                  <svg
                    width="11"
                    height="12"

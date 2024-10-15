@@ -2,12 +2,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useTranslations } from "use-intl";
 
 
 const Categories = () => {
-
      const [category,setCategory]=useState('Medical Imaging')
      const [products,setproducts]=useState([])
+     const t=useTranslations('Products')
 
     // const products = [
     //   {
@@ -69,13 +70,13 @@ const Categories = () => {
       <section className="max-w-screen-xl mx-auto 2xl:my-20 lg:my-14 mb-12">
         <div className="container">
           <p className="text-center text-[#343131] text-2xl font-bold text-gary-800 xl:mb-8 mb-4">
-            Just choose
+            {t('justchoose')}
           </p>
             <div>
                 <ul className="flex justify-center w-full my-5 cursor-pointer">
-                  <li onClick={()=>setCategory('Medical Imaging')} className={`text-center ${category=='Medical Imaging'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>Medical Imaging</li>
-                  <li onClick={()=>setCategory('OR Solutions')} className={`text-center ${category=='OR Solutions'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>OR Solutions</li>
-                  <li onClick={()=>setCategory('Patient Care')} className={`text-center ${category=='Patient Care'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>Patient Care</li>
+                  <li onClick={()=>setCategory('Medical Imaging')} className={`text-center ${category=='Medical Imaging'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}> {t('medicalImaging')}</li>
+                  <li onClick={()=>setCategory('OR Solutions')} className={`text-center ${category=='OR Solutions'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}> {t('orSolutions')}</li>
+                  <li onClick={()=>setCategory('Patient Care')} className={`text-center ${category=='Patient Care'?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}> {t('patientCare')}</li>
                 </ul>
             </div>
 

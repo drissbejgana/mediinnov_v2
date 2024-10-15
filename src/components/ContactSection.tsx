@@ -1,16 +1,18 @@
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 export default function ContactSection() {
+  const t=useTranslations('Footer')
   return (
     <div className="max-w-screen-lg mx-auto bg-gray-100 border border-gray-200 rounded-md md:p-6 p-4 my-14 ">
       <div className="flex xl:gap-8 gap-4 items-center justify-center sm:flex-nowrap flex-wrap md:pb-6 md:mb-6 pb-4 mb-4 border-b border-primary-900/5">
         <Link className="focus:outline-none text-[17px] text-[#bb1f22] hover:text-white bg-[#EEDF7A] rounded  focus:ring-4 focus:ring-red-300 font-medium  text-sm px-8 py-3.5 me-2 mb-2  shadow-lg hover:!bg-gray-800" href="#products">
-             Talk to us now
+        {t('talktous')}
         </Link>
       </div>
       <div className="flex items-center md:justify-between justify-center gap-4 md:flex md:flex-nowrap flex-wrap">
         <p className="text-md text-md text-gray-800 font-medium md:text-left text-center">
-          Have any questions for us? Chat with our team on Facebook or WhatsApp now.
+        {t('talkdesc')}
         </p>
         <div className="flex gap-4 items-center min-w-max justify-center">
 
@@ -23,7 +25,7 @@ export default function ContactSection() {
                   />
                 </g>
               </svg>
-              Chat with us
+              {t('chatwithus')}
             </Link>
 
 
@@ -41,7 +43,7 @@ export default function ContactSection() {
                   fill="currentColor"
                 />
               </svg>
-              Chat with us
+              {t('chatwithus')}
             </Link> 
 
         </div>

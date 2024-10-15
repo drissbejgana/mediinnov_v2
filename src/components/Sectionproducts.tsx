@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Products from "./products";
+import { useTranslations } from "next-intl";
 
 type Product = {
     id: number;
@@ -15,11 +16,10 @@ type Product = {
 
 
 export default function Sectionroducts() {
-    const [isLoading, setIsLoading] = useState(true);
     const [subcats, setSubcats] = useState<Product[]>([]);
     const [categoryByid,setCategorybyId]=useState(1)
     const [category,setCategory]=useState('mri')
-
+    const t=useTranslations('Products')
     useEffect(()=>{
            
         async function getProducts() {
@@ -42,17 +42,17 @@ export default function Sectionroducts() {
         <section id="products"  className="max-w-screen-xl mx-auto 2xl:my-20 lg:my-14 my-12">
           <div className="container">
             <h2 className="text-center text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">
-                Our Medical Devices
+                {t('OurMedicalDevices')}
             </h2>
               
               <div>
                   <ul className="flex justify-center w-full my-5 cursor-pointer">
                     <li onClick={()=>{setCategorybyId(1) 
-                         setCategory('mri')}} className={`text-center ${categoryByid==1?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>Medical Imaging</li>
+                         setCategory('mri')}} className={`text-center ${categoryByid==1?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>{t('medicalImaging')}</li>
                     <li onClick={()=>{setCategorybyId(2)
-                         setCategory('surgical-light')}} className={`text-center ${categoryByid==2?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>OR Solutions</li>
+                         setCategory('surgical-light')}} className={`text-center ${categoryByid==2?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>{t('orSolutions')}</li>
                     <li onClick={()=>{setCategorybyId(3) 
-                        setCategory('patient-monitor')}} className={`text-center ${categoryByid==3?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}>Patient Care</li>
+                        setCategory('patient-monitor')}} className={`text-center ${categoryByid==3?'bg-red-700 text-white':''} px-4 py-3 border mx-1 bg-[#F2F2F2] rounded`}> {t('patientCare')}</li>
                   </ul>
                   <ul className="flex flex-wrap justify-center w-full my-5 cursor-pointer">
                     {

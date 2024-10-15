@@ -1,10 +1,12 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const FeaturesSection = () => {
+  const t=useTranslations('SolutionsSection')
   return (
     <section className="bg-primary-400 mx-5 xl:py-12 py-8">
       <div className="container mx-auto">
-      <h2 className="text-center  text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">OUR SOLUTIONS</h2>
+      <h2 className="text-center  text-[#343131] text-4xl font-bold text-gary-800 xl:mb-8 mb-4">  {t('title')}</h2>
       
         <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 mt-8">
 
@@ -56,10 +58,10 @@ const FeaturesSection = () => {
                 </svg> 
             </span>
             <p className="my-4 2xl:text-xl text-lg font-semibold leading-tight text-gray-800">
-            Medical Imaging
+             {t('MedicalImaging')}
             </p>
             <p className="text-md">
-            MEDI'INNOV ultrasound systems, magnetic resonance technology and x-ray devices provide a comprehensive portfolio of complete hard & software solutions tailored for global imaging needs
+            {t('MedicalImagingdescription')}
             </p>
           </div>
 
@@ -73,10 +75,10 @@ const FeaturesSection = () => {
 
             </span>
             <p className="my-4 2xl:text-xl text-lg font-semibold leading-tight text-gray-800">
-              OR Solutions
+            {t('OrSolutions')}
             </p>
             <p className="text-md">
-              OR Solutions from SternMed, including anesthesia units, surgical tables and surgical lights, are designed to support clinicians worldwide to provide health care for their patients.
+            {t('OrSolutionsdescription')}
             </p>
           </div>
 
@@ -86,11 +88,11 @@ const FeaturesSection = () => {
               <svg className="my-5 w-10 h-10 fill-red-800 transition-all duration-500 group-hover:!fill-white " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M224 24V80H168c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h56v56c0 13.3 10.7 24 24 24h48c13.3 0 24-10.7 24-24V176h56c13.3 0 24-10.7 24-24V104c0-13.3-10.7-24-24-24H320V24c0-13.3-10.7-24-24-24H248c-13.3 0-24 10.7-24 24zM559.7 392.2c17.8-13.1 21.6-38.1 8.5-55.9s-38.1-21.6-55.9-8.5L392.6 416H272c-8.8 0-16-7.2-16-16s7.2-16 16-16h16 64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288 272 193.7c-29.1 0-57.3 9.9-80 28L68.8 384H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H192 352.5c29 0 57.3-9.3 80.7-26.5l126.6-93.3zm-367-8.2l.9 0 0 0c-.3 0-.6 0-.9 0z"/></svg>
             </span>
             <p className="my-4 2xl:text-xl text-lg font-semibold leading-tight text-gray-800">
-                Patient Care
+            {t('PatientCare')}
             </p>
 
             <p className="text-md">
-                 MEDI'INNOV provides patient care devices like patient monitors, infusion and syringe pumps and medical ventilators, to support clinicians in giving exceptional patient care to their patients.
+            {t('PatientCaredescription')}
             </p>
           </div>
 
